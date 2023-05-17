@@ -24,19 +24,19 @@ This filname is later going to be used inside  `torch._inductor.scheduler.py` to
  def gather_node_info(self, node, kernel_name, kernel_path):
         import json
         from ..utils.custom_flop_counter import get_total_flop
-    
+  
         node_flops = get_total_flop(node.get_nodes())
-             
-        
+           
+      
         stats = {}
-    
+  
         stats["flops"] = node_flops
         ops = []
         for origin in [origin for n in node.get_nodes() for origin in n.node.origins]:
             if isinstance(origin.target, torch._ops.OpOverload):
                 ops.append(str(origin.target.overloadpacket))
         stats["ops"] = ops
-    
+  
         inputs = []
         kwargs = []
         for n in [n.node for n in node.get_nodes()]:
@@ -51,22 +51,22 @@ This filname is later going to be used inside  `torch._inductor.scheduler.py` to
             else:
                 if isinstance(n, ir.MultiOutput):
                     continue
-            
+          
                 assert n.is_extern()
                 inputs += [{ "dtype": str(in_.layout.dtype),
                     "size": [str(i)  for i in in_.layout.size],
                     "stride": [str(i) for i in in_.layout.stride],
                 } for in_ in n.inputs]
                 kwargs.append(n.kwargs)
-    
-    
+  
+  
         stats["inputs"] = inputs
         stats["kwargs"] = kwargs
         stats["triton"] = {
             "kernel_name": kernel_name,
             "kernel_path": kernel_path,
         }
-    
+  
             # write json to file
         return stats
 
@@ -77,7 +77,7 @@ This filname is later going to be used inside  `torch._inductor.scheduler.py` to
         from ..utils.gpu_info import get_gpu_info
         node_data = {"nodes":[], "gpu_info":get_gpu_info()}
         import inspect
-    
+  
         for node in self.nodes:
             for n in node.get_nodes():
                 current_frame = inspect.currentframe().f_back
@@ -92,7 +92,7 @@ This filname is later going to be used inside  `torch._inductor.scheduler.py` to
                     print(origin)
                     # print(n.node)
                 print("-------------------------")
-    
+  
         # HILEA upate
         for i, node in enumerate(self.nodes):
 
@@ -123,8 +123,8 @@ This filname is later going to be used inside  `torch._inductor.scheduler.py` to
             self.buffer_names_to_free.update(node.last_usage)
 
             triton_info = {"kernel_name": "", "kernel_path": ""}
-        
-        
+      
+      
             if node.is_template():
                 node, *epilogue = node.get_nodes()
                 self.get_backend(device).codegen_template(node, epilogue)
@@ -136,7 +136,7 @@ This filname is later going to be used inside  `torch._inductor.scheduler.py` to
                 triton_kernel.codegen_nodes(node.get_nodes())  
                 triton_info["kernel_name"] = triton_kernel.kernel_name
                 triton_info["kernel_path"] = triton_kernel.kernel_path
-                # bench_mark_res = triton_kernel.kernel.codegen_kernel_benchmark()    
+                # bench_mark_res = triton_kernel.kernel.codegen_kernel_benchmark()  
                 # print(bench_mark_res.getvalue())
             else:
                 assert isinstance(node, NopKernelSchedulerNode)
@@ -146,10 +146,10 @@ This filname is later going to be used inside  `torch._inductor.scheduler.py` to
                 self.get_backend(device).codegen_sync()
 
             self.available_buffer_names.update(node.get_names())
-        
+      
             node_str = self.gather_node_info(node, triton_info["kernel_name"], triton_info["kernel_path"])  
             node_data["nodes"].append(node_str)
-    
+  
         def write_data(data):
             from sympy.core.numbers import Integer, One
             import json
@@ -160,12 +160,12 @@ This filname is later going to be used inside  `torch._inductor.scheduler.py` to
                         return str(obj)
                     # Add additional checks for other types here...
                     return super().default(obj)
-            
+          
             import time
             import torch.utils.custom_benchmark as benchmark
             with open(f"Data_{benchmark.filename}.json", "w") as f:
                 f.write(json.dumps(data, indent=4, cls=CustomEncoder))  
-        
+      
         write_data(node_data)
         self.flush()
 
@@ -298,7 +298,6 @@ This modification will generate data like the following
 ```
 
 </details>
-
 
 ### Current Limitation
 
