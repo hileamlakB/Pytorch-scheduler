@@ -34,3 +34,7 @@ x = torch.randn(*input_tensor_size, device="cuda")
 
 # Forward pass through the model
 output = model(x)
+
+# TODOS
+# Experiment with differnet inputs and Plot data
+# Experiment with merged backward and forward convolution

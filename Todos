@@ -1,3 +1,6 @@
+[ ] Figure out where fusion is coming from when using only external kernels
+[ ] 
+
 [ ] Write a new benchmarking script
 [ ] Benchmark single ExternKernels
     - Vary input sizes by a power of two while benchmarking

@@ -1,11 +1,15 @@
-file_name:  /n/home07/hyitayew/source_env/lib/python3.10/contextlib.py line_number:  79
----------------------GRAPH---------------------
-primals_1 placeholder primals_1 () <class 'torch.fx.node.Node'>
-primals_2 placeholder primals_2 () <class 'torch.fx.node.Node'>
-primals_3 placeholder primals_3 () <class 'torch.fx.node.Node'>
-convolution call_function aten.convolution (primals_3, primals_1, primals_2, [1, 1], [2, 2], [1, 1], False, [0, 0], 1) <class 'torch.fx.node.Node'>
-output output output ([convolution, primals_1, primals_3],) <class 'torch.fx.node.Node'>
-----------------file_name: scheduler, line_number: around 1277
+For a convolutional nueral Net like the following
+class ConvNet(nn.Module):
+    def __init__(self, in_channels, out_channels, kernel_size, stride):
+        super(ConvNet, self).__init__()
+        self.conv = nn.Conv2d(in_channels, out_channels, kernel_size=kernel_size, stride=stride, padding=kernel_size//2)
+
+    def forward(self, x):
+        out = self.conv(x)
+        return out
+
+The scheduler Nodes endup looking like the following
+
 ExternKernelAlloc(
   name=buf0,
   layout=FixedLayout('cuda', torch.float32, size=[1, 32, 28, 28], stride=[25088, 784, 28, 1]),
@@ -16,7 +20,7 @@ ExternKernelAlloc(
   origin_node=None,
   origins={convolution}
 )
-ReadWrites(reads={StarDep(name='primals_1'), StarDep(name='primals_3')}, writes={StarDep(name='buf0')}, index_exprs=set(), range_vars=[], var_ranges=None)
+ReadWrites(reads={StarDep(name='primals_3'), StarDep(name='primals_1')}, writes={StarDep(name='buf0')}, index_exprs=set(), range_vars=[], var_ranges=None)
 {'_args': (primals_3,
            primals_1,
            primals_2,
@@ -32,7 +36,7 @@ ReadWrites(reads={StarDep(name='primals_1'), StarDep(name='primals_3')}, writes=
  '_next': output,
  '_prev': primals_3,
  '_repr_fn': None,
- 'graph': <torch.fx.graph.Graph object at 0x2ac3ca917a00>,
+ 'graph': <torch.fx.graph.Graph object at 0x2b9baefbcf40>,
  'meta': {'nn_module_stack': {'L__self___conv': ("L['self'].conv",
                                                  <class 'torch.nn.modules.conv.Conv2d'>)},
           'original_aten': <OpOverload(op='aten.convolution', overload='default')>,
@@ -49,7 +53,7 @@ ReadWrites(reads={StarDep(name='primals_1'), StarDep(name='primals_3')}, writes=
  'type': None,
  'users': {output: None}}
 convolution
--------------------------
+
 ----------------file_name: scheduler, line_number: around 1277
 ComputedBuffer(name='buf1', layout=FixedLayout('cuda', torch.float32, size=[1, 32, 28, 28], stride=[25088, 784, 28, 1]), data=Pointwise(
   'cuda',
@@ -81,7 +85,7 @@ ReadWrites(reads={MemoryDep(name='primals_2', index=c0, size=(32, 784)), MemoryD
  '_next': output,
  '_prev': primals_3,
  '_repr_fn': None,
- 'graph': <torch.fx.graph.Graph object at 0x2ac3ca917a00>,
+ 'graph': <torch.fx.graph.Graph object at 0x2b9baefbcf40>,
  'meta': {'nn_module_stack': {'L__self___conv': ("L['self'].conv",
                                                  <class 'torch.nn.modules.conv.Conv2d'>)},
           'original_aten': <OpOverload(op='aten.convolution', overload='default')>,
@@ -98,18 +102,9 @@ ReadWrites(reads={MemoryDep(name='primals_2', index=c0, size=(32, 784)), MemoryD
  'type': None,
  'users': {output: None}}
 convolution
--------------------------
-origin <class 'torch.fx.node.Node'> convolution
-{convolution}
-origin <class 'torch.fx.node.Node'> convolution
-conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
-aten.convolution
-[[1, 32, 28, 28]]
-{'out': [1, 32, 28, 28]}
-{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
-aten.convolution.default aten.convolution
-0.008ms    1254400 Flops
-0.005ms    	0.000 GB 	   39.23GB/s 	 triton_poi_fused_convolution_0
-SUMMARY (/tmp/torchinductor_hyitayew/q2/cq2bi6icpqiude7akyip2i24k5li5nqtgiaq5lliaonawnz34uel.py)
-0.01ms   	 0.00 GB	 39.23GB/s
+    
 
+
+
+So what exactly is a ComputedBuffer, if it is going to contain a duplicate of the results of an externelKernel?
+Or what is externelKernel?
