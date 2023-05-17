@@ -11,13 +11,14 @@ The first component is the file name where the results will be dumped to. The da
 ```python
 import torch.utils.custom_benchmark as benchmark
 benchmark.filename = "file_name"
+
 ```
 
     This filname is later going to be used inside  torch._inductor.scheduler.py to determine where to dump the data collected about each kernel. On the same note, for the scheduler to be capable of generating this data the codgen function inside the Scheduler class inside the scheduler file has been modifed as follows.
 
-`<details>`
+<details>
 
-`<summary> Codgen MOD </summary>`
+<summary> Codgen MOD </summary>
 
 ```python
  def gather_node_info(self, node, kernel_name, kernel_path):
@@ -171,11 +172,11 @@ benchmark.filename = "file_name"
    
 ```
 
-`</details>`
+</details>
 
 This modification will generate data like the following
 
-`<details>`
+<details>
 
 <summary> Sample data generated</summary>
 
