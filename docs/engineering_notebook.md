@@ -14,7 +14,7 @@ benchmark.filename = "file_name"
 
 ```
 
-    This filname is later going to be used inside  torch._inductor.scheduler.py to determine where to dump the data collected about each kernel. On the same note, for the scheduler to be capable of generating this data the codgen function inside the Scheduler class inside the scheduler file has been modifed as follows.
+This filname is later going to be used inside  `torch._inductor.scheduler.py` to determine where to dump the data collected about each kernel. On the same note, for the scheduler to be capable of generating this data the codgen function inside the Scheduler class inside the scheduler file has been modifed as follows.
 
 <details>
 
