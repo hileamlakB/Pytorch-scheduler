@@ -1,0 +1,6 @@
+[ ] Write a new benchmarking script
+[ ] Benchmark single ExternKernels
+    - Vary input sizes by a power of two while benchmarking
+[ ] Plot results from this experiment
+[ ] Benchmark point wise operations
+[ ] Bencharm point wise operations when they are chained

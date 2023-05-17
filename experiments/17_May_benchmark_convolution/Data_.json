@@ -1,0 +1,114 @@
+{
+    "nodes": [
+        {
+            "flops": 1254400.0,
+            "ops": [
+                "aten.convolution"
+            ],
+            "inputs": [
+                {
+                    "dtype": "torch.float32",
+                    "size": [
+                        "1",
+                        "1",
+                        "28",
+                        "28"
+                    ],
+                    "stride": [
+                        "784",
+                        "784",
+                        "28",
+                        "1"
+                    ]
+                },
+                {
+                    "dtype": "torch.float32",
+                    "size": [
+                        "32",
+                        "1",
+                        "5",
+                        "5"
+                    ],
+                    "stride": [
+                        "25",
+                        "25",
+                        "5",
+                        "1"
+                    ]
+                }
+            ],
+            "kwargs": [
+                {
+                    "stride": [
+                        1,
+                        1
+                    ],
+                    "padding": [
+                        2,
+                        2
+                    ],
+                    "dilation": [
+                        1,
+                        1
+                    ],
+                    "transposed": false,
+                    "output_padding": [
+                        0,
+                        0
+                    ],
+                    "groups": 1,
+                    "bias": null
+                }
+            ],
+            "triton": {
+                "kernel_name": "aten.convolution",
+                "kernel_path": ""
+            }
+        },
+        {
+            "flops": 0.0,
+            "ops": [
+                "aten.convolution"
+            ],
+            "inputs": [
+                {
+                    "dtype": "torch.float32",
+                    "size": [
+                        "1",
+                        "32",
+                        "28",
+                        "28"
+                    ],
+                    "stride": [
+                        "25088",
+                        "784",
+                        "28",
+                        "1"
+                    ]
+                }
+            ],
+            "kwargs": [],
+            "triton": {
+                "kernel_name": "triton_poi_fused_convolution_0",
+                "kernel_path": "/tmp/torchinductor_hyitayew/ra/craxf7n74rio7hqphlyqbar7mpzapo7huoswhpbwcd2bfawmn33g.py"
+            }
+        }
+    ],
+    "gpu_info": {
+        "name": "Tesla V100-PCIE-32GB",
+        "compute_capability": [
+            7,
+            0
+        ],
+        "total_memory": 32510.6875,
+        "clock_rate": 1380.0,
+        "memory_clock_rate": 877.0,
+        "num_multiprocessors": 80,
+        "max_threads_per_block": 1024,
+        "max_threads_per_multiprocessor": 2048,
+        "warp_size": 32,
+        "l2_cache_size": 6291456,
+        "max_shared_memory_per_multiprocessor": 98304,
+        "global_memory_bus_width": 4096
+    }
+}

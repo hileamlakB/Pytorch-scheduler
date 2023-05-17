@@ -1,0 +1,105 @@
+file_name:  /n/home07/hyitayew/source_env/lib/python3.10/contextlib.py line_number:  79
+---------------------GRAPH---------------------
+primals_1 placeholder primals_1 () <class 'torch.fx.node.Node'>
+primals_2 placeholder primals_2 () <class 'torch.fx.node.Node'>
+primals_3 placeholder primals_3 () <class 'torch.fx.node.Node'>
+convolution call_function aten.convolution (primals_3, primals_1, primals_2, [1, 1], [2, 2], [1, 1], False, [0, 0], 1) <class 'torch.fx.node.Node'>
+output output output ([convolution, primals_1, primals_3],) <class 'torch.fx.node.Node'>
+----------------file_name:  /n/home07/hyitayew/pytorch/torch/_dynamo/utils.py line_number:  177
+ExternKernelAlloc(
+  name=buf0,
+  layout=FixedLayout('cuda', torch.float32, size=[1, 32, 28, 28], stride=[25088, 784, 28, 1]),
+  inputs=[InputBuffer(name='primals_3', layout=FixedLayout('cuda', torch.float32, size=[1, 1, 28, 28], stride=[784, 784, 28, 1])), InputBuffer(name='primals_1', layout=FixedLayout('cuda', torch.float32, size=[32, 1, 5, 5], stride=[25, 25, 5, 1]))],
+  constant_args=(),
+  kwargs={'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None},
+  output_view=None,
+  origin_node=None,
+  origins={convolution}
+)
+ReadWrites(reads={StarDep(name='primals_3'), StarDep(name='primals_1')}, writes={StarDep(name='buf0')}, index_exprs=set(), range_vars=[], var_ranges=None)
+{'_args': (primals_3,
+           primals_1,
+           primals_2,
+           [1, 1],
+           [2, 2],
+           [1, 1],
+           False,
+           [0, 0],
+           1),
+ '_erased': False,
+ '_input_nodes': {primals_2: None, primals_3: None, primals_1: None},
+ '_kwargs': {},
+ '_next': output,
+ '_prev': primals_3,
+ '_repr_fn': None,
+ 'graph': <torch.fx.graph.Graph object at 0x2b1821fe8ee0>,
+ 'meta': {'nn_module_stack': {'L__self___conv': ("L['self'].conv",
+                                                 <class 'torch.nn.modules.conv.Conv2d'>)},
+          'original_aten': <OpOverload(op='aten.convolution', overload='default')>,
+          'source_fn': <class 'torch.nn.modules.conv.Conv2d'>,
+          'stack_trace': '  File "/n/home07/hyitayew/Research/Summer '
+                         '2023/experiments/17_May_benchmark_convolution/1_benchmark_convolution.py", '
+                         'line 16, in forward\n'
+                         '    out = self.conv(x)\n',
+          'tensor_meta': TensorMetadata(shape=torch.Size([1, 32, 28, 28]), dtype=torch.float32, requires_grad=False, stride=(25088, 784, 28, 1), memory_format=torch.contiguous_format, is_quantized=False, qparams={}),
+          'val': FakeTensor(..., device='cuda:0', size=(1, 32, 28, 28))},
+ 'name': 'convolution',
+ 'op': 'call_function',
+ 'target': <OpOverload(op='aten.convolution', overload='default')>,
+ 'type': None,
+ 'users': {output: None}}
+convolution
+-------------------------
+----------------file_name:  /n/home07/hyitayew/pytorch/torch/_dynamo/utils.py line_number:  177
+ComputedBuffer(name='buf1', layout=FixedLayout('cuda', torch.float32, size=[1, 32, 28, 28], stride=[25088, 784, 28, 1]), data=Pointwise(
+  'cuda',
+  torch.float32,
+  def inner_fn(index):
+      _, i1, i2, i3 = index
+      tmp0 = ops.load(buf0, i3 + 28 * i2 + 784 * i1)
+      tmp1 = ops.load(primals_2, i1)
+      tmp2 = tmp0 + tmp1
+      return tmp2
+  ,
+  ranges=[1, 32, 28, 28],
+  origin_node=convolution,
+  origins={convolution}
+))
+ReadWrites(reads={MemoryDep(name='primals_2', index=c0, size=(32, 784)), MemoryDep(name='buf0', index=c0, size=(25088,))}, writes={MemoryDep(name='buf1', index=c0, size=(25088,))}, index_exprs=set(), range_vars=[], var_ranges=OrderedDict([(d0, 32), (d1, 784)]))
+{'_args': (primals_3,
+           primals_1,
+           primals_2,
+           [1, 1],
+           [2, 2],
+           [1, 1],
+           False,
+           [0, 0],
+           1),
+ '_erased': False,
+ '_input_nodes': {primals_2: None, primals_3: None, primals_1: None},
+ '_kwargs': {},
+ '_next': output,
+ '_prev': primals_3,
+ '_repr_fn': None,
+ 'graph': <torch.fx.graph.Graph object at 0x2b1821fe8ee0>,
+ 'meta': {'nn_module_stack': {'L__self___conv': ("L['self'].conv",
+                                                 <class 'torch.nn.modules.conv.Conv2d'>)},
+          'original_aten': <OpOverload(op='aten.convolution', overload='default')>,
+          'source_fn': <class 'torch.nn.modules.conv.Conv2d'>,
+          'stack_trace': '  File "/n/home07/hyitayew/Research/Summer '
+                         '2023/experiments/17_May_benchmark_convolution/1_benchmark_convolution.py", '
+                         'line 16, in forward\n'
+                         '    out = self.conv(x)\n',
+          'tensor_meta': TensorMetadata(shape=torch.Size([1, 32, 28, 28]), dtype=torch.float32, requires_grad=False, stride=(25088, 784, 28, 1), memory_format=torch.contiguous_format, is_quantized=False, qparams={}),
+          'val': FakeTensor(..., device='cuda:0', size=(1, 32, 28, 28))},
+ 'name': 'convolution',
+ 'op': 'call_function',
+ 'target': <OpOverload(op='aten.convolution', overload='default')>,
+ 'type': None,
+ 'users': {output: None}}
+convolution
+-------------------------
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 28, 28]]
+{'out': [1, 32, 28, 28]}
