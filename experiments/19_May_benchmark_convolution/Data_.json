@@ -1,7 +1,7 @@
 {
     "nodes": [
         {
-            "flops": 614400.0,
+            "flops": 13107200.0,
             "ops": [
                 "aten.convolution"
             ],
@@ -10,27 +10,27 @@
                     "dtype": "torch.float32",
                     "size": [
                         "1",
-                        "3",
-                        "16",
-                        "16"
+                        "1",
+                        "128",
+                        "128"
                     ],
                     "stride": [
-                        "768",
-                        "256",
-                        "16",
+                        "16384",
+                        "16384",
+                        "128",
                         "1"
                     ]
                 },
                 {
                     "dtype": "torch.float32",
                     "size": [
-                        "64",
-                        "3",
+                        "16",
+                        "1",
                         "5",
                         "5"
                     ],
                     "stride": [
-                        "75",
+                        "25",
                         "25",
                         "5",
                         "1"
@@ -40,8 +40,8 @@
             "kwargs": [
                 {
                     "stride": [
-                        2,
-                        2
+                        1,
+                        1
                     ],
                     "padding": [
                         2,
@@ -75,14 +75,14 @@
                     "dtype": "torch.float32",
                     "size": [
                         "1",
-                        "64",
-                        "8",
-                        "8"
+                        "16",
+                        "128",
+                        "128"
                     ],
                     "stride": [
-                        "4096",
-                        "64",
-                        "8",
+                        "262144",
+                        "16384",
+                        "128",
                         "1"
                     ]
                 }
@@ -90,7 +90,7 @@
             "kwargs": [],
             "triton": {
                 "kernel_name": "triton_poi_fused_convolution_0",
-                "kernel_path": "/tmp/torchinductor_hyitayew/6w/c6wt4orovoralpz2lqx3nu6sjk5zz33jmw6gppmdzgf24ukmltdo.py"
+                "kernel_path": "/tmp/torchinductor_hyitayew/s6/cs6s56h7ro6uq435pj27fvtxpl2nqqqtsvkzkuyec2nss3tqksxw.py"
             }
         }
     ],

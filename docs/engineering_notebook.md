@@ -26,8 +26,8 @@ This filname is later going to be used inside  `torch._inductor.scheduler.py` to
         from ..utils.custom_flop_counter import get_total_flop
   
         node_flops = get_total_flop(node.get_nodes())
-           
-      
+         
+    
         stats = {}
   
         stats["flops"] = node_flops
@@ -51,7 +51,7 @@ This filname is later going to be used inside  `torch._inductor.scheduler.py` to
             else:
                 if isinstance(n, ir.MultiOutput):
                     continue
-          
+        
                 assert n.is_extern()
                 inputs += [{ "dtype": str(in_.layout.dtype),
                     "size": [str(i)  for i in in_.layout.size],
@@ -123,8 +123,8 @@ This filname is later going to be used inside  `torch._inductor.scheduler.py` to
             self.buffer_names_to_free.update(node.last_usage)
 
             triton_info = {"kernel_name": "", "kernel_path": ""}
-      
-      
+    
+    
             if node.is_template():
                 node, *epilogue = node.get_nodes()
                 self.get_backend(device).codegen_template(node, epilogue)
@@ -146,7 +146,7 @@ This filname is later going to be used inside  `torch._inductor.scheduler.py` to
                 self.get_backend(device).codegen_sync()
 
             self.available_buffer_names.update(node.get_names())
-      
+    
             node_str = self.gather_node_info(node, triton_info["kernel_name"], triton_info["kernel_path"])  
             node_data["nodes"].append(node_str)
   
@@ -160,12 +160,12 @@ This filname is later going to be used inside  `torch._inductor.scheduler.py` to
                         return str(obj)
                     # Add additional checks for other types here...
                     return super().default(obj)
-          
+        
             import time
             import torch.utils.custom_benchmark as benchmark
             with open(f"Data_{benchmark.filename}.json", "w") as f:
                 f.write(json.dumps(data, indent=4, cls=CustomEncoder))  
-      
+    
         write_data(node_data)
         self.flush()
 
@@ -303,4 +303,7 @@ This modification will generate data like the following
 
 - Flop counters for backward fused operations are wrong
 - Flop counters for external kernels sometimes fail ( because all important information can't collected from the graph)
--
+
+# Important Observation
+
+- Gpu performance isn't the same when running kernels individually and back to back, we should account for this in our final model. This was first observed [here](../experiments/19_May_benchmark_convolution/summary.md).

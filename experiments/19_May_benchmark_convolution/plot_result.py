@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load data from CSV
-data = pd.read_csv('output.csv')
+data = pd.read_csv('results.csv')
 
 # Define common parameters
 common_kernel_size = 3

@@ -1,0 +1,220 @@
+Traceback (most recent call last):
+  File "/n/home07/hyitayew/Research/Summer 2023/experiments/19_May_benchmark_convolution/script_9.py", line 19, in <module>
+    output = model(x)
+  File "/n/home07/hyitayew/pytorch/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/_dynamo/eval_frame.py", line 280, in _fn
+    return fn(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home07/hyitayew/Research/Summer 2023/experiments/19_May_benchmark_convolution/script_9.py", line 12, in forward
+    def forward(self, x):
+  File "/n/home07/hyitayew/pytorch/torch/_dynamo/eval_frame.py", line 280, in _fn
+    return fn(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/_dynamo/external_utils.py", line 17, in inner
+    return fn(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 3346, in forward
+    return compiled_fn(full_args)
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1260, in g
+    return f(*args)
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 2204, in runtime_wrapper
+    all_outs = call_func_with_args(
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1285, in call_func_with_args
+    out = normalize_as_list(f(args))
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1260, in g
+    return f(*args)
+  File "/n/home07/hyitayew/pytorch/torch/autograd/function.py", line 506, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 2594, in forward
+    fw_outs = call_func_with_args(
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1285, in call_func_with_args
+    out = normalize_as_list(f(args))
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/compile_fx.py", line 394, in run
+    return model(new_inputs)
+  File "/tmp/torchinductor_hyitayew/2f/c2fswteuqonohnoqzmnpwk4znefl5qyxvjnhmcemcfmh2aatampy.py", line 62, in call
+    buf0 = extern_kernels.convolution(primals_3, primals_1, stride=(1, 1), padding=(1, 1), dilation=(1, 1), transposed=False, output_padding=(0, 0), groups=1, bias=None)
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/select_algorithm.py", line 542, in benchmark_fn
+    ms = do_bench(lambda: kernel(*args, **kwargs))
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/utils.py", line 54, in do_bench
+    return triton_do_bench(*args, **kwargs)[0]
+  File "/n/home07/hyitayew/source_env/lib/python3.10/site-packages/triton/testing.py", line 68, in do_bench
+    fn()
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/select_algorithm.py", line 542, in <lambda>
+    ms = do_bench(lambda: kernel(*args, **kwargs))
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 9.00 GiB. GPU 0 has a total capacty of 31.75 GiB of which 4.88 GiB is free. Including non-PyTorch memory, this process has 26.86 GiB memory in use. Of the allocated memory 17.25 GiB is allocated by PyTorch, and 8.78 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Traceback (most recent call last):
+  File "/n/home07/hyitayew/Research/Summer 2023/experiments/19_May_benchmark_convolution/script_10.py", line 19, in <module>
+    output = model(x)
+  File "/n/home07/hyitayew/pytorch/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/_dynamo/eval_frame.py", line 280, in _fn
+    return fn(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home07/hyitayew/Research/Summer 2023/experiments/19_May_benchmark_convolution/script_10.py", line 12, in forward
+    def forward(self, x):
+  File "/n/home07/hyitayew/pytorch/torch/_dynamo/eval_frame.py", line 280, in _fn
+    return fn(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/_dynamo/external_utils.py", line 17, in inner
+    return fn(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 3346, in forward
+    return compiled_fn(full_args)
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1260, in g
+    return f(*args)
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 2204, in runtime_wrapper
+    all_outs = call_func_with_args(
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1285, in call_func_with_args
+    out = normalize_as_list(f(args))
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1260, in g
+    return f(*args)
+  File "/n/home07/hyitayew/pytorch/torch/autograd/function.py", line 506, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 2594, in forward
+    fw_outs = call_func_with_args(
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1285, in call_func_with_args
+    out = normalize_as_list(f(args))
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/compile_fx.py", line 394, in run
+    return model(new_inputs)
+  File "/tmp/torchinductor_hyitayew/gq/cgqt5nrvxuv4tgqr3krn5t7xrqxq4iz5u336d6cmo2i3uxfcwd5m.py", line 62, in call
+    buf0 = extern_kernels.convolution(primals_3, primals_1, stride=(1, 1), padding=(1, 1), dilation=(1, 1), transposed=False, output_padding=(0, 0), groups=1, bias=None)
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/select_algorithm.py", line 542, in benchmark_fn
+    ms = do_bench(lambda: kernel(*args, **kwargs))
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/utils.py", line 54, in do_bench
+    return triton_do_bench(*args, **kwargs)[0]
+  File "/n/home07/hyitayew/source_env/lib/python3.10/site-packages/triton/testing.py", line 44, in do_bench
+    fn()
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/select_algorithm.py", line 542, in <lambda>
+    ms = do_bench(lambda: kernel(*args, **kwargs))
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 64.00 GiB. GPU 0 has a total capacty of 31.75 GiB of which 26.91 GiB is free. Including non-PyTorch memory, this process has 4.83 GiB memory in use. Of the allocated memory 4.00 GiB is allocated by PyTorch, and 2.00 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Traceback (most recent call last):
+  File "/n/home07/hyitayew/Research/Summer 2023/experiments/19_May_benchmark_convolution/script_11.py", line 19, in <module>
+    output = model(x)
+  File "/n/home07/hyitayew/pytorch/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/_dynamo/eval_frame.py", line 280, in _fn
+    return fn(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home07/hyitayew/Research/Summer 2023/experiments/19_May_benchmark_convolution/script_11.py", line 12, in forward
+    def forward(self, x):
+  File "/n/home07/hyitayew/pytorch/torch/_dynamo/eval_frame.py", line 280, in _fn
+    return fn(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/_dynamo/external_utils.py", line 17, in inner
+    return fn(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 3346, in forward
+    return compiled_fn(full_args)
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1260, in g
+    return f(*args)
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 2204, in runtime_wrapper
+    all_outs = call_func_with_args(
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1285, in call_func_with_args
+    out = normalize_as_list(f(args))
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1260, in g
+    return f(*args)
+  File "/n/home07/hyitayew/pytorch/torch/autograd/function.py", line 506, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 2594, in forward
+    fw_outs = call_func_with_args(
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1285, in call_func_with_args
+    out = normalize_as_list(f(args))
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/compile_fx.py", line 394, in run
+    return model(new_inputs)
+  File "/tmp/torchinductor_hyitayew/65/c65m5ekrzl2iak6kf3t7yhpqfvmwxptxzrxwm6dtjrpri7u5nz53.py", line 62, in call
+    buf0 = extern_kernels.convolution(primals_3, primals_1, stride=(1, 1), padding=(1, 1), dilation=(1, 1), transposed=False, output_padding=(0, 0), groups=1, bias=None)
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/select_algorithm.py", line 542, in benchmark_fn
+    ms = do_bench(lambda: kernel(*args, **kwargs))
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/utils.py", line 54, in do_bench
+    return triton_do_bench(*args, **kwargs)[0]
+  File "/n/home07/hyitayew/source_env/lib/python3.10/site-packages/triton/testing.py", line 44, in do_bench
+    fn()
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/select_algorithm.py", line 542, in <lambda>
+    ms = do_bench(lambda: kernel(*args, **kwargs))
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 256.00 GiB. GPU 0 has a total capacty of 31.75 GiB of which 14.91 GiB is free. Including non-PyTorch memory, this process has 16.83 GiB memory in use. Of the allocated memory 16.00 GiB is allocated by PyTorch, and 2.00 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Traceback (most recent call last):
+  File "/n/home07/hyitayew/Research/Summer 2023/experiments/19_May_benchmark_convolution/script_30.py", line 19, in <module>
+    output = model(x)
+  File "/n/home07/hyitayew/pytorch/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/_dynamo/eval_frame.py", line 280, in _fn
+    return fn(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home07/hyitayew/Research/Summer 2023/experiments/19_May_benchmark_convolution/script_30.py", line 12, in forward
+    def forward(self, x):
+  File "/n/home07/hyitayew/pytorch/torch/_dynamo/eval_frame.py", line 280, in _fn
+    return fn(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/_dynamo/external_utils.py", line 17, in inner
+    return fn(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 3346, in forward
+    return compiled_fn(full_args)
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1260, in g
+    return f(*args)
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 2204, in runtime_wrapper
+    all_outs = call_func_with_args(
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1285, in call_func_with_args
+    out = normalize_as_list(f(args))
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1260, in g
+    return f(*args)
+  File "/n/home07/hyitayew/pytorch/torch/autograd/function.py", line 506, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 2594, in forward
+    fw_outs = call_func_with_args(
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1285, in call_func_with_args
+    out = normalize_as_list(f(args))
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/compile_fx.py", line 394, in run
+    return model(new_inputs)
+  File "/tmp/torchinductor_hyitayew/mn/cmna2wp3ajcbo7mlgdfoasnvcjoabkopcfanjmldblahw5zhwyr4.py", line 62, in call
+    buf0 = extern_kernels.convolution(primals_3, primals_1, stride=(2, 2), padding=(1, 1), dilation=(1, 1), transposed=False, output_padding=(0, 0), groups=1, bias=None)
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/select_algorithm.py", line 542, in benchmark_fn
+    ms = do_bench(lambda: kernel(*args, **kwargs))
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/utils.py", line 54, in do_bench
+    return triton_do_bench(*args, **kwargs)[0]
+  File "/n/home07/hyitayew/source_env/lib/python3.10/site-packages/triton/testing.py", line 68, in do_bench
+    fn()
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/select_algorithm.py", line 542, in <lambda>
+    ms = do_bench(lambda: kernel(*args, **kwargs))
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 9.00 GiB. GPU 0 has a total capacty of 31.75 GiB of which 1.88 GiB is free. Including non-PyTorch memory, this process has 29.86 GiB memory in use. Of the allocated memory 20.25 GiB is allocated by PyTorch, and 8.78 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Traceback (most recent call last):
+  File "/n/home07/hyitayew/Research/Summer 2023/experiments/19_May_benchmark_convolution/script_31.py", line 19, in <module>
+    output = model(x)
+  File "/n/home07/hyitayew/pytorch/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/_dynamo/eval_frame.py", line 280, in _fn
+    return fn(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/n/home07/hyitayew/Research/Summer 2023/experiments/19_May_benchmark_convolution/script_31.py", line 12, in forward
+    def forward(self, x):
+  File "/n/home07/hyitayew/pytorch/torch/_dynamo/eval_frame.py", line 280, in _fn
+    return fn(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/_dynamo/external_utils.py", line 17, in inner
+    return fn(*args, **kwargs)
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 3346, in forward
+    return compiled_fn(full_args)
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1260, in g
+    return f(*args)
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 2204, in runtime_wrapper
+    all_outs = call_func_with_args(
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1285, in call_func_with_args
+    out = normalize_as_list(f(args))
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1260, in g
+    return f(*args)
+  File "/n/home07/hyitayew/pytorch/torch/autograd/function.py", line 506, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 2594, in forward
+    fw_outs = call_func_with_args(
+  File "/n/home07/hyitayew/pytorch/torch/_functorch/aot_autograd.py", line 1285, in call_func_with_args
+    out = normalize_as_list(f(args))
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/compile_fx.py", line 394, in run
+    return model(new_inputs)
+  File "/tmp/torchinductor_hyitayew/2l/c2lfts26nuebw45s53fq27ijcad3p4ahwsdg4m5hkxhrn5z7rkhs.py", line 62, in call
+    buf0 = extern_kernels.convolution(primals_3, primals_1, stride=(2, 2), padding=(1, 1), dilation=(1, 1), transposed=False, output_padding=(0, 0), groups=1, bias=None)
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/select_algorithm.py", line 542, in benchmark_fn
+    ms = do_bench(lambda: kernel(*args, **kwargs))
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/utils.py", line 54, in do_bench
+    return triton_do_bench(*args, **kwargs)[0]
+  File "/n/home07/hyitayew/source_env/lib/python3.10/site-packages/triton/testing.py", line 44, in do_bench
+    fn()
+  File "/n/home07/hyitayew/pytorch/torch/_inductor/select_algorithm.py", line 542, in <lambda>
+    ms = do_bench(lambda: kernel(*args, **kwargs))
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 64.00 GiB. GPU 0 has a total capacty of 31.75 GiB of which 14.91 GiB is free. Including non-PyTorch memory, this process has 16.83 GiB memory in use. Of the allocated memory 16.00 GiB is allocated by PyTorch, and 2.00 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
