@@ -38,3 +38,4 @@ output = model(x)
 # TODOS
 # Experiment with differnet inputs and Plot data
 # Experiment with merged backward and forward convolution
+
