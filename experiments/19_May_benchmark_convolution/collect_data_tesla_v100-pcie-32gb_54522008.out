@@ -253,3 +253,3283 @@ aten.convolution
 {'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
 aten.convolution.default aten.convolution
 0.012ms    13107200Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 256, 256]]
+{'out': [1, 16, 256, 256]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.027ms    52428800Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 512, 512]]
+{'out': [1, 16, 512, 512]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.085ms    209715200Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 1024, 1024]]
+{'out': [1, 16, 1024, 1024]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.331ms    838860800Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 2048, 2048]]
+{'out': [1, 16, 2048, 2048]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+1.427ms    3355443200Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 4096, 4096]]
+{'out': [1, 16, 4096, 4096]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+5.259ms    13421772800Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 8192, 8192]]
+{'out': [1, 16, 8192, 8192]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+21.947ms    53687091200Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 16384, 16384]]
+{'out': [1, 16, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 32768, 32768]]
+{'out': [1, 16, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 65536, 65536]]
+{'out': [1, 16, 65536, 65536]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 16, 16]]
+{'out': [1, 16, 16, 16]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.008ms    204800Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 32, 32]]
+{'out': [1, 16, 32, 32]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.008ms    819200Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 64, 64]]
+{'out': [1, 16, 64, 64]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.009ms    3276800Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 128, 128]]
+{'out': [1, 16, 128, 128]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.013ms    13107200Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 256, 256]]
+{'out': [1, 16, 256, 256]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.027ms    52428800Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 512, 512]]
+{'out': [1, 16, 512, 512]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.083ms    209715200Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 1024, 1024]]
+{'out': [1, 16, 1024, 1024]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.367ms    838860800Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 2048, 2048]]
+{'out': [1, 16, 2048, 2048]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+1.316ms    3355443200Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 4096, 4096]]
+{'out': [1, 16, 4096, 4096]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+5.735ms    13421772800Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 8192, 8192]]
+{'out': [1, 16, 8192, 8192]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+21.475ms    53687091200Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 16384, 16384]]
+{'out': [1, 16, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 32768, 32768]]
+{'out': [1, 16, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32, 32]]
+{'out': [1, 32, 32, 32]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.007ms    589824Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 64, 64]]
+{'out': [1, 32, 64, 64]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.009ms    2359296Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 128, 128]]
+{'out': [1, 32, 128, 128]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.014ms    9437184Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 256, 256]]
+{'out': [1, 32, 256, 256]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.034ms    37748736Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 512, 512]]
+{'out': [1, 32, 512, 512]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.071ms    150994944Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 1024, 1024]]
+{'out': [1, 32, 1024, 1024]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.255ms    603979776Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 2048, 2048]]
+{'out': [1, 32, 2048, 2048]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.954ms    2415919104Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 4096, 4096]]
+{'out': [1, 32, 4096, 4096]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+3.706ms    9663676416Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 8192, 8192]]
+{'out': [1, 32, 8192, 8192]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+45.802ms    38654705664Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 16384, 16384]]
+{'out': [1, 32, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32768, 32768]]
+{'out': [1, 32, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 65536, 65536]]
+{'out': [1, 32, 65536, 65536]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 16, 16]]
+{'out': [1, 32, 16, 16]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.007ms    147456Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32, 32]]
+{'out': [1, 32, 32, 32]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.007ms    589824Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 64, 64]]
+{'out': [1, 32, 64, 64]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.009ms    2359296Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 128, 128]]
+{'out': [1, 32, 128, 128]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.014ms    9437184Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 256, 256]]
+{'out': [1, 32, 256, 256]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.060ms    37748736Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 512, 512]]
+{'out': [1, 32, 512, 512]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.261ms    150994944Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 1024, 1024]]
+{'out': [1, 32, 1024, 1024]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+1.260ms    603979776Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 2048, 2048]]
+{'out': [1, 32, 2048, 2048]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+4.947ms    2415919104Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 4096, 4096]]
+{'out': [1, 32, 4096, 4096]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+19.282ms    9663676416Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 8192, 8192]]
+{'out': [1, 32, 8192, 8192]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+46.679ms    38654705664Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 16384, 16384]]
+{'out': [1, 32, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32768, 32768]]
+{'out': [1, 32, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32, 32]]
+{'out': [1, 32, 32, 32]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.008ms    1638400Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 64, 64]]
+{'out': [1, 32, 64, 64]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.010ms    6553600Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 128, 128]]
+{'out': [1, 32, 128, 128]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.016ms    26214400Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 256, 256]]
+{'out': [1, 32, 256, 256]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.039ms    104857600Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 512, 512]]
+{'out': [1, 32, 512, 512]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.120ms    419430400Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 1024, 1024]]
+{'out': [1, 32, 1024, 1024]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.542ms    1677721600Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 2048, 2048]]
+{'out': [1, 32, 2048, 2048]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+2.154ms    6710886400Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 4096, 4096]]
+{'out': [1, 32, 4096, 4096]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+8.896ms    26843545600Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 8192, 8192]]
+{'out': [1, 32, 8192, 8192]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+59.706ms    107374182400Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 16384, 16384]]
+{'out': [1, 32, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32768, 32768]]
+{'out': [1, 32, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 65536, 65536]]
+{'out': [1, 32, 65536, 65536]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 16, 16]]
+{'out': [1, 32, 16, 16]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.008ms    409600Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32, 32]]
+{'out': [1, 32, 32, 32]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.008ms    1638400Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 64, 64]]
+{'out': [1, 32, 64, 64]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.010ms    6553600Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 128, 128]]
+{'out': [1, 32, 128, 128]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.016ms    26214400Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 256, 256]]
+{'out': [1, 32, 256, 256]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.039ms    104857600Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 512, 512]]
+{'out': [1, 32, 512, 512]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.127ms    419430400Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 1024, 1024]]
+{'out': [1, 32, 1024, 1024]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.537ms    1677721600Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 2048, 2048]]
+{'out': [1, 32, 2048, 2048]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+2.261ms    6710886400Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 4096, 4096]]
+{'out': [1, 32, 4096, 4096]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+8.989ms    26843545600Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 8192, 8192]]
+{'out': [1, 32, 8192, 8192]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+61.693ms    107374182400Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 16384, 16384]]
+{'out': [1, 32, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32768, 32768]]
+{'out': [1, 32, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32, 32]]
+{'out': [1, 64, 32, 32]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.015ms    1179648Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 64, 64]]
+{'out': [1, 64, 64, 64]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.015ms    4718592Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 128, 128]]
+{'out': [1, 64, 128, 128]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.018ms    18874368Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 256, 256]]
+{'out': [1, 64, 256, 256]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.039ms    75497472Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 512, 512]]
+{'out': [1, 64, 512, 512]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.122ms    301989888Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 1024, 1024]]
+{'out': [1, 64, 1024, 1024]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.441ms    1207959552Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 2048, 2048]]
+{'out': [1, 64, 2048, 2048]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+1.713ms    4831838208Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 4096, 4096]]
+{'out': [1, 64, 4096, 4096]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+7.270ms    19327352832Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 8192, 8192]]
+{'out': [1, 64, 8192, 8192]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+83.216ms    77309411328Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 16384, 16384]]
+{'out': [1, 64, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32768, 32768]]
+{'out': [1, 64, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 65536, 65536]]
+{'out': [1, 64, 65536, 65536]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 16, 16]]
+{'out': [1, 64, 16, 16]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.015ms    294912Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32, 32]]
+{'out': [1, 64, 32, 32]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.015ms    1179648Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 64, 64]]
+{'out': [1, 64, 64, 64]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.015ms    4718592Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 128, 128]]
+{'out': [1, 64, 128, 128]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.018ms    18874368Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 256, 256]]
+{'out': [1, 64, 256, 256]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.040ms    75497472Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 512, 512]]
+{'out': [1, 64, 512, 512]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.119ms    301989888Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 1024, 1024]]
+{'out': [1, 64, 1024, 1024]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+aten.convolution.default aten.convolution
+0.461ms    1207959552Flops
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 2048, 2048]]
+{'out': [1, 64, 2048, 2048]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 4096, 4096]]
+{'out': [1, 64, 4096, 4096]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 8192, 8192]]
+{'out': [1, 64, 8192, 8192]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 16384, 16384]]
+{'out': [1, 64, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32768, 32768]]
+{'out': [1, 64, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32, 32]]
+{'out': [1, 64, 32, 32]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 64, 64]]
+{'out': [1, 64, 64, 64]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 128, 128]]
+{'out': [1, 64, 128, 128]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 256, 256]]
+{'out': [1, 64, 256, 256]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 512, 512]]
+{'out': [1, 64, 512, 512]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 1024, 1024]]
+{'out': [1, 64, 1024, 1024]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 2048, 2048]]
+{'out': [1, 64, 2048, 2048]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 4096, 4096]]
+{'out': [1, 64, 4096, 4096]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 8192, 8192]]
+{'out': [1, 64, 8192, 8192]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 16384, 16384]]
+{'out': [1, 64, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32768, 32768]]
+{'out': [1, 64, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 65536, 65536]]
+{'out': [1, 64, 65536, 65536]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 16, 16]]
+{'out': [1, 64, 16, 16]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32, 32]]
+{'out': [1, 64, 32, 32]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 64, 64]]
+{'out': [1, 64, 64, 64]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 128, 128]]
+{'out': [1, 64, 128, 128]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 256, 256]]
+{'out': [1, 64, 256, 256]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 512, 512]]
+{'out': [1, 64, 512, 512]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 1024, 1024]]
+{'out': [1, 64, 1024, 1024]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 2048, 2048]]
+{'out': [1, 64, 2048, 2048]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 4096, 4096]]
+{'out': [1, 64, 4096, 4096]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 8192, 8192]]
+{'out': [1, 64, 8192, 8192]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 16384, 16384]]
+{'out': [1, 64, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32768, 32768]]
+{'out': [1, 64, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 32, 32]]
+{'out': [1, 16, 32, 32]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 64, 64]]
+{'out': [1, 16, 64, 64]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 128, 128]]
+{'out': [1, 16, 128, 128]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 256, 256]]
+{'out': [1, 16, 256, 256]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 512, 512]]
+{'out': [1, 16, 512, 512]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 1024, 1024]]
+{'out': [1, 16, 1024, 1024]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 2048, 2048]]
+{'out': [1, 16, 2048, 2048]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 4096, 4096]]
+{'out': [1, 16, 4096, 4096]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 8192, 8192]]
+{'out': [1, 16, 8192, 8192]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 16384, 16384]]
+{'out': [1, 16, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 32768, 32768]]
+{'out': [1, 16, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 16, 16]]
+{'out': [1, 16, 16, 16]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 32, 32]]
+{'out': [1, 16, 32, 32]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 64, 64]]
+{'out': [1, 16, 64, 64]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 128, 128]]
+{'out': [1, 16, 128, 128]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 256, 256]]
+{'out': [1, 16, 256, 256]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 512, 512]]
+{'out': [1, 16, 512, 512]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 1024, 1024]]
+{'out': [1, 16, 1024, 1024]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 2048, 2048]]
+{'out': [1, 16, 2048, 2048]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 4096, 4096]]
+{'out': [1, 16, 4096, 4096]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 8192, 8192]]
+{'out': [1, 16, 8192, 8192]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 16384, 16384]]
+{'out': [1, 16, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 32, 32]]
+{'out': [1, 16, 32, 32]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 64, 64]]
+{'out': [1, 16, 64, 64]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 128, 128]]
+{'out': [1, 16, 128, 128]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 256, 256]]
+{'out': [1, 16, 256, 256]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 512, 512]]
+{'out': [1, 16, 512, 512]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 1024, 1024]]
+{'out': [1, 16, 1024, 1024]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 2048, 2048]]
+{'out': [1, 16, 2048, 2048]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 4096, 4096]]
+{'out': [1, 16, 4096, 4096]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 8192, 8192]]
+{'out': [1, 16, 8192, 8192]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 16384, 16384]]
+{'out': [1, 16, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 32768, 32768]]
+{'out': [1, 16, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 16, 16]]
+{'out': [1, 16, 16, 16]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 32, 32]]
+{'out': [1, 16, 32, 32]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 64, 64]]
+{'out': [1, 16, 64, 64]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 128, 128]]
+{'out': [1, 16, 128, 128]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 256, 256]]
+{'out': [1, 16, 256, 256]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 512, 512]]
+{'out': [1, 16, 512, 512]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 1024, 1024]]
+{'out': [1, 16, 1024, 1024]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 2048, 2048]]
+{'out': [1, 16, 2048, 2048]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 4096, 4096]]
+{'out': [1, 16, 4096, 4096]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 8192, 8192]]
+{'out': [1, 16, 8192, 8192]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 16384, 16384]]
+{'out': [1, 16, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32, 32]]
+{'out': [1, 32, 32, 32]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 64, 64]]
+{'out': [1, 32, 64, 64]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 128, 128]]
+{'out': [1, 32, 128, 128]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 256, 256]]
+{'out': [1, 32, 256, 256]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 512, 512]]
+{'out': [1, 32, 512, 512]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 1024, 1024]]
+{'out': [1, 32, 1024, 1024]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 2048, 2048]]
+{'out': [1, 32, 2048, 2048]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 4096, 4096]]
+{'out': [1, 32, 4096, 4096]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 8192, 8192]]
+{'out': [1, 32, 8192, 8192]}
+{'stride': (1, 1), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 16384, 16384]]
+{'out': [1, 32, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32768, 32768]]
+{'out': [1, 32, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 16, 16]]
+{'out': [1, 32, 16, 16]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32, 32]]
+{'out': [1, 32, 32, 32]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 64, 64]]
+{'out': [1, 32, 64, 64]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 128, 128]]
+{'out': [1, 32, 128, 128]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 256, 256]]
+{'out': [1, 32, 256, 256]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 512, 512]]
+{'out': [1, 32, 512, 512]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 1024, 1024]]
+{'out': [1, 32, 1024, 1024]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 2048, 2048]]
+{'out': [1, 32, 2048, 2048]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 4096, 4096]]
+{'out': [1, 32, 4096, 4096]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 8192, 8192]]
+{'out': [1, 32, 8192, 8192]}
+{'stride': (2, 2), 'padding': (1, 1), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 16384, 16384]]
+{'out': [1, 32, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32, 32]]
+{'out': [1, 32, 32, 32]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 64, 64]]
+{'out': [1, 32, 64, 64]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 128, 128]]
+{'out': [1, 32, 128, 128]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 256, 256]]
+{'out': [1, 32, 256, 256]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 512, 512]]
+{'out': [1, 32, 512, 512]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 1024, 1024]]
+{'out': [1, 32, 1024, 1024]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 2048, 2048]]
+{'out': [1, 32, 2048, 2048]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 4096, 4096]]
+{'out': [1, 32, 4096, 4096]}
+{'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 8192, 8192]]
+{'out': [1, 32, 8192, 8192]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 16384, 16384]]
+{'out': [1, 32, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32768, 32768]]
+{'out': [1, 32, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 16, 16]]
+{'out': [1, 32, 16, 16]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32, 32]]
+{'out': [1, 32, 32, 32]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 64, 64]]
+{'out': [1, 32, 64, 64]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 128, 128]]
+{'out': [1, 32, 128, 128]}
+{'stride': (2, 2), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 256, 256]]
+{'out': [1, 32, 256, 256]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 512, 512]]
+{'out': [1, 32, 512, 512]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 1024, 1024]]
+{'out': [1, 32, 1024, 1024]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 2048, 2048]]
+{'out': [1, 32, 2048, 2048]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 4096, 4096]]
+{'out': [1, 32, 4096, 4096]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 8192, 8192]]
+{'out': [1, 32, 8192, 8192]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 16384, 16384]]
+{'out': [1, 32, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32, 32]]
+{'out': [1, 64, 32, 32]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 64, 64]]
+{'out': [1, 64, 64, 64]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 128, 128]]
+{'out': [1, 64, 128, 128]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 256, 256]]
+{'out': [1, 64, 256, 256]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 512, 512]]
+{'out': [1, 64, 512, 512]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 1024, 1024]]
+{'out': [1, 64, 1024, 1024]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 2048, 2048]]
+{'out': [1, 64, 2048, 2048]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 4096, 4096]]
+{'out': [1, 64, 4096, 4096]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 8192, 8192]]
+{'out': [1, 64, 8192, 8192]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 16384, 16384]]
+{'out': [1, 64, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32768, 32768]]
+{'out': [1, 64, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 16, 16]]
+{'out': [1, 64, 16, 16]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32, 32]]
+{'out': [1, 64, 32, 32]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 64, 64]]
+{'out': [1, 64, 64, 64]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 128, 128]]
+{'out': [1, 64, 128, 128]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 256, 256]]
+{'out': [1, 64, 256, 256]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 512, 512]]
+{'out': [1, 64, 512, 512]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 1024, 1024]]
+{'out': [1, 64, 1024, 1024]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 2048, 2048]]
+{'out': [1, 64, 2048, 2048]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 4096, 4096]]
+{'out': [1, 64, 4096, 4096]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 8192, 8192]]
+{'out': [1, 64, 8192, 8192]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 16384, 16384]]
+{'out': [1, 64, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32, 32]]
+{'out': [1, 64, 32, 32]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 64, 64]]
+{'out': [1, 64, 64, 64]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 128, 128]]
+{'out': [1, 64, 128, 128]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 256, 256]]
+{'out': [1, 64, 256, 256]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 512, 512]]
+{'out': [1, 64, 512, 512]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 1024, 1024]]
+{'out': [1, 64, 1024, 1024]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 2048, 2048]]
+{'out': [1, 64, 2048, 2048]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 4096, 4096]]
+{'out': [1, 64, 4096, 4096]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 8192, 8192]]
+{'out': [1, 64, 8192, 8192]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 16384, 16384]]
+{'out': [1, 64, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32768, 32768]]
+{'out': [1, 64, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 16, 16]]
+{'out': [1, 64, 16, 16]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32, 32]]
+{'out': [1, 64, 32, 32]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 64, 64]]
+{'out': [1, 64, 64, 64]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 128, 128]]
+{'out': [1, 64, 128, 128]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 256, 256]]
+{'out': [1, 64, 256, 256]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 512, 512]]
+{'out': [1, 64, 512, 512]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 1024, 1024]]
+{'out': [1, 64, 1024, 1024]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 2048, 2048]]
+{'out': [1, 64, 2048, 2048]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 4096, 4096]]
+{'out': [1, 64, 4096, 4096]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 8192, 8192]]
+{'out': [1, 64, 8192, 8192]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 16384, 16384]]
+{'out': [1, 64, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 32, 32]]
+{'out': [1, 16, 32, 32]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 64, 64]]
+{'out': [1, 16, 64, 64]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 128, 128]]
+{'out': [1, 16, 128, 128]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 256, 256]]
+{'out': [1, 16, 256, 256]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 512, 512]]
+{'out': [1, 16, 512, 512]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 1024, 1024]]
+{'out': [1, 16, 1024, 1024]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 2048, 2048]]
+{'out': [1, 16, 2048, 2048]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 4096, 4096]]
+{'out': [1, 16, 4096, 4096]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 8192, 8192]]
+{'out': [1, 16, 8192, 8192]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 16384, 16384]]
+{'out': [1, 16, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 32768, 32768]]
+{'out': [1, 16, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 16, 16]]
+{'out': [1, 16, 16, 16]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 32, 32]]
+{'out': [1, 16, 32, 32]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 64, 64]]
+{'out': [1, 16, 64, 64]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 128, 128]]
+{'out': [1, 16, 128, 128]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 256, 256]]
+{'out': [1, 16, 256, 256]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 512, 512]]
+{'out': [1, 16, 512, 512]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 1024, 1024]]
+{'out': [1, 16, 1024, 1024]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 2048, 2048]]
+{'out': [1, 16, 2048, 2048]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 4096, 4096]]
+{'out': [1, 16, 4096, 4096]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 8192, 8192]]
+{'out': [1, 16, 8192, 8192]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 16384, 16384]]
+{'out': [1, 16, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 32, 32]]
+{'out': [1, 16, 32, 32]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 64, 64]]
+{'out': [1, 16, 64, 64]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 128, 128]]
+{'out': [1, 16, 128, 128]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 256, 256]]
+{'out': [1, 16, 256, 256]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 512, 512]]
+{'out': [1, 16, 512, 512]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 1024, 1024]]
+{'out': [1, 16, 1024, 1024]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 2048, 2048]]
+{'out': [1, 16, 2048, 2048]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 4096, 4096]]
+{'out': [1, 16, 4096, 4096]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 8192, 8192]]
+{'out': [1, 16, 8192, 8192]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 16384, 16384]]
+{'out': [1, 16, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 32768, 32768]]
+{'out': [1, 16, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 16, 16]]
+{'out': [1, 16, 16, 16]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 32, 32]]
+{'out': [1, 16, 32, 32]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 64, 64]]
+{'out': [1, 16, 64, 64]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 128, 128]]
+{'out': [1, 16, 128, 128]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 256, 256]]
+{'out': [1, 16, 256, 256]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 512, 512]]
+{'out': [1, 16, 512, 512]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 1024, 1024]]
+{'out': [1, 16, 1024, 1024]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 2048, 2048]]
+{'out': [1, 16, 2048, 2048]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 4096, 4096]]
+{'out': [1, 16, 4096, 4096]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 8192, 8192]]
+{'out': [1, 16, 8192, 8192]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 16, 16384, 16384]]
+{'out': [1, 16, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32, 32]]
+{'out': [1, 32, 32, 32]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 64, 64]]
+{'out': [1, 32, 64, 64]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 128, 128]]
+{'out': [1, 32, 128, 128]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 256, 256]]
+{'out': [1, 32, 256, 256]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 512, 512]]
+{'out': [1, 32, 512, 512]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 1024, 1024]]
+{'out': [1, 32, 1024, 1024]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 2048, 2048]]
+{'out': [1, 32, 2048, 2048]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 4096, 4096]]
+{'out': [1, 32, 4096, 4096]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 8192, 8192]]
+{'out': [1, 32, 8192, 8192]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 16384, 16384]]
+{'out': [1, 32, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32768, 32768]]
+{'out': [1, 32, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 16, 16]]
+{'out': [1, 32, 16, 16]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32, 32]]
+{'out': [1, 32, 32, 32]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 64, 64]]
+{'out': [1, 32, 64, 64]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 128, 128]]
+{'out': [1, 32, 128, 128]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 256, 256]]
+{'out': [1, 32, 256, 256]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 512, 512]]
+{'out': [1, 32, 512, 512]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 1024, 1024]]
+{'out': [1, 32, 1024, 1024]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 2048, 2048]]
+{'out': [1, 32, 2048, 2048]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 4096, 4096]]
+{'out': [1, 32, 4096, 4096]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 8192, 8192]]
+{'out': [1, 32, 8192, 8192]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 16384, 16384]]
+{'out': [1, 32, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32, 32]]
+{'out': [1, 32, 32, 32]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 64, 64]]
+{'out': [1, 32, 64, 64]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 128, 128]]
+{'out': [1, 32, 128, 128]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 256, 256]]
+{'out': [1, 32, 256, 256]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 512, 512]]
+{'out': [1, 32, 512, 512]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 1024, 1024]]
+{'out': [1, 32, 1024, 1024]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 2048, 2048]]
+{'out': [1, 32, 2048, 2048]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 4096, 4096]]
+{'out': [1, 32, 4096, 4096]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 8192, 8192]]
+{'out': [1, 32, 8192, 8192]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 16384, 16384]]
+{'out': [1, 32, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32768, 32768]]
+{'out': [1, 32, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 16, 16]]
+{'out': [1, 32, 16, 16]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 32, 32]]
+{'out': [1, 32, 32, 32]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 64, 64]]
+{'out': [1, 32, 64, 64]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 128, 128]]
+{'out': [1, 32, 128, 128]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 256, 256]]
+{'out': [1, 32, 256, 256]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 512, 512]]
+{'out': [1, 32, 512, 512]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 1024, 1024]]
+{'out': [1, 32, 1024, 1024]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 2048, 2048]]
+{'out': [1, 32, 2048, 2048]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 4096, 4096]]
+{'out': [1, 32, 4096, 4096]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 8192, 8192]]
+{'out': [1, 32, 8192, 8192]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 32, 16384, 16384]]
+{'out': [1, 32, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32, 32]]
+{'out': [1, 64, 32, 32]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 64, 64]]
+{'out': [1, 64, 64, 64]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 128, 128]]
+{'out': [1, 64, 128, 128]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 256, 256]]
+{'out': [1, 64, 256, 256]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 512, 512]]
+{'out': [1, 64, 512, 512]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 1024, 1024]]
+{'out': [1, 64, 1024, 1024]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 2048, 2048]]
+{'out': [1, 64, 2048, 2048]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 4096, 4096]]
+{'out': [1, 64, 4096, 4096]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 8192, 8192]]
+{'out': [1, 64, 8192, 8192]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 16384, 16384]]
+{'out': [1, 64, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32768, 32768]]
+{'out': [1, 64, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 16, 16]]
+{'out': [1, 64, 16, 16]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32, 32]]
+{'out': [1, 64, 32, 32]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 64, 64]]
+{'out': [1, 64, 64, 64]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 128, 128]]
+{'out': [1, 64, 128, 128]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 256, 256]]
+{'out': [1, 64, 256, 256]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 512, 512]]
+{'out': [1, 64, 512, 512]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 1024, 1024]]
+{'out': [1, 64, 1024, 1024]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 2048, 2048]]
+{'out': [1, 64, 2048, 2048]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 4096, 4096]]
+{'out': [1, 64, 4096, 4096]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 8192, 8192]]
+{'out': [1, 64, 8192, 8192]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 16384, 16384]]
+{'out': [1, 64, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32, 32]]
+{'out': [1, 64, 32, 32]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 64, 64]]
+{'out': [1, 64, 64, 64]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 128, 128]]
+{'out': [1, 64, 128, 128]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 256, 256]]
+{'out': [1, 64, 256, 256]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 512, 512]]
+{'out': [1, 64, 512, 512]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 1024, 1024]]
+{'out': [1, 64, 1024, 1024]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 2048, 2048]]
+{'out': [1, 64, 2048, 2048]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 4096, 4096]]
+{'out': [1, 64, 4096, 4096]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 8192, 8192]]
+{'out': [1, 64, 8192, 8192]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 16384, 16384]]
+{'out': [1, 64, 16384, 16384]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32768, 32768]]
+{'out': [1, 64, 32768, 32768]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 16, 16]]
+{'out': [1, 64, 16, 16]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 32, 32]]
+{'out': [1, 64, 32, 32]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 64, 64]]
+{'out': [1, 64, 64, 64]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 128, 128]]
+{'out': [1, 64, 128, 128]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 256, 256]]
+{'out': [1, 64, 256, 256]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 512, 512]]
+{'out': [1, 64, 512, 512]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 1024, 1024]]
+{'out': [1, 64, 1024, 1024]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 2048, 2048]]
+{'out': [1, 64, 2048, 2048]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 4096, 4096]]
+{'out': [1, 64, 4096, 4096]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 8192, 8192]]
+{'out': [1, 64, 8192, 8192]}
+origin <class 'torch.fx.node.Node'> convolution
+{convolution}
+origin <class 'torch.fx.node.Node'> convolution
+conv_flop() missing 6 required positional arguments: 'w_shape', 'bias', 'stride', 'padding', 'dilation', and 'transposed'
+aten.convolution
+[[1, 64, 16384, 16384]]
+{'out': [1, 64, 16384, 16384]}
+Skipping, image size too large,  68719476736
+Skipping, image size too large,  274877906944
+Skipping, image size too large,  1099511627776
+Skipping, image size too large,  4398046511104
+Skipping, image size too large,  17592186044416
+Skipping, image size too large,  70368744177664
+Skipping, image size too large,  281474976710656
+Skipping, image size too large,  1125899906842624
+Skipping, image size too large,  68719476736
+Skipping, image size too large,  274877906944
+Skipping, image size too large,  1099511627776
+Skipping, image size too large,  4398046511104
+Skipping, image size too large,  17592186044416
+Skipping, image size too large,  70368744177664
+Skipping, image size too large,  281474976710656
+Skipping, image size too large,  1125899906842624
+Skipping, image size too large,  68719476736
+Skipping, image size too large,  274877906944
+Skipping, image size too large,  1099511627776
+Skipping, image size too large,  4398046511104
+Skipping, image size too large,  17592186044416
+Skipping, image size too large,  70368744177664
+Skipping, image size too large,  281474976710656
+Skipping, image size too large,  1125899906842624
+Skipping, image size too large,  68719476736
+Skipping, image size too large,  274877906944
+Skipping, image size too large,  1099511627776
+Skipping, image size too large,  4398046511104
+Skipping, image size too large,  17592186044416
+Skipping, image size too large,  70368744177664
+Skipping, image size too large,  281474976710656
+Skipping, image size too large,  1125899906842624
+Skipping, image size too large,  68719476736
+Skipping, image size too large,  274877906944
+Skipping, image size too large,  1099511627776
+Skipping, image size too large,  4398046511104
+Skipping, image size too large,  17592186044416
+Skipping, image size too large,  70368744177664
+Skipping, image size too large,  281474976710656
+Skipping, image size too large,  1125899906842624
+Skipping, image size too large,  68719476736
+Skipping, image size too large,  274877906944
+Skipping, image size too large,  1099511627776
+Skipping, image size too large,  4398046511104
+Skipping, image size too large,  17592186044416
+Skipping, image size too large,  70368744177664
+Skipping, image size too large,  281474976710656
+Skipping, image size too large,  1125899906842624
+Skipping, image size too large,  68719476736
+Skipping, image size too large,  274877906944
+Skipping, image size too large,  1099511627776
+Skipping, image size too large,  4398046511104
+Skipping, image size too large,  17592186044416
+Skipping, image size too large,  70368744177664
+Skipping, image size too large,  281474976710656
+Skipping, image size too large,  1125899906842624
+Skipping, image size too large,  68719476736
+Skipping, image size too large,  274877906944
+Skipping, image size too large,  1099511627776
+Skipping, image size too large,  4398046511104
+Skipping, image size too large,  17592186044416
+Skipping, image size too large,  70368744177664
+Skipping, image size too large,  281474976710656
+Skipping, image size too large,  1125899906842624
+Skipping, image size too large,  68719476736
+Skipping, image size too large,  274877906944
+Skipping, image size too large,  1099511627776
+Skipping, image size too large,  4398046511104
+Skipping, image size too large,  17592186044416
+Skipping, image size too large,  70368744177664
+Skipping, image size too large,  281474976710656
+Skipping, image size too large,  1125899906842624
+Skipping, image size too large,  68719476736
+Skipping, image size too large,  274877906944
+Skipping, image size too large,  1099511627776
+Skipping, image size too large,  4398046511104
+Skipping, image size too large,  17592186044416
+Skipping, image size too large,  70368744177664
+Skipping, image size too large,  281474976710656
+Skipping, image size too large,  1125899906842624
+Skipping, image size too large,  68719476736
+Skipping, image size too large,  274877906944
+Skipping, image size too large,  1099511627776
+Skipping, image size too large,  4398046511104
+Skipping, image size too large,  17592186044416
+Skipping, image size too large,  70368744177664
+Skipping, image size too large,  281474976710656
+Skipping, image size too large,  1125899906842624
+Skipping, image size too large,  68719476736
+Skipping, image size too large,  274877906944
+Skipping, image size too large,  1099511627776
+Skipping, image size too large,  4398046511104
+Skipping, image size too large,  17592186044416
+Skipping, image size too large,  70368744177664
+Skipping, image size too large,  281474976710656
+Skipping, image size too large,  1125899906842624
+Skipping, image size too large,  51539607552
+Skipping, image size too large,  206158430208
+Skipping, image size too large,  824633720832
+Skipping, image size too large,  3298534883328
+Skipping, image size too large,  13194139533312
+Skipping, image size too large,  52776558133248
+Skipping, image size too large,  211106232532992
+Skipping, image size too large,  844424930131968
+Skipping, image size too large,  3377699720527872
+Skipping, image size too large,  51539607552
+Skipping, image size too large,  206158430208
+Skipping, image size too large,  824633720832
+Skipping, image size too large,  3298534883328
+Skipping, image size too large,  13194139533312
+Skipping, image size too large,  52776558133248
+Skipping, image size too large,  211106232532992
+Skipping, image size too large,  844424930131968
+Skipping, image size too large,  3377699720527872
+Skipping, image size too large,  51539607552
+Skipping, image size too large,  206158430208
+Skipping, image size too large,  824633720832
+Skipping, image size too large,  3298534883328
+Skipping, image size too large,  13194139533312
+Skipping, image size too large,  52776558133248
+Skipping, image size too large,  211106232532992
+Skipping, image size too large,  844424930131968
+Skipping, image size too large,  3377699720527872
+Skipping, image size too large,  51539607552
+Skipping, image size too large,  206158430208
+Skipping, image size too large,  824633720832
+Skipping, image size too large,  3298534883328
+Skipping, image size too large,  13194139533312
+Skipping, image size too large,  52776558133248
+Skipping, image size too large,  211106232532992
+Skipping, image size too large,  844424930131968
+Skipping, image size too large,  3377699720527872
+Skipping, image size too large,  51539607552
+Skipping, image size too large,  206158430208
+Skipping, image size too large,  824633720832
+Skipping, image size too large,  3298534883328
+Skipping, image size too large,  13194139533312
+Skipping, image size too large,  52776558133248
+Skipping, image size too large,  211106232532992
+Skipping, image size too large,  844424930131968
+Skipping, image size too large,  3377699720527872
+Skipping, image size too large,  51539607552
+Skipping, image size too large,  206158430208
+Skipping, image size too large,  824633720832
+Skipping, image size too large,  3298534883328
+Skipping, image size too large,  13194139533312
+Skipping, image size too large,  52776558133248
+Skipping, image size too large,  211106232532992
+Skipping, image size too large,  844424930131968
+Skipping, image size too large,  3377699720527872
+Skipping, image size too large,  51539607552
+Skipping, image size too large,  206158430208
+Skipping, image size too large,  824633720832
+Skipping, image size too large,  3298534883328
+Skipping, image size too large,  13194139533312
+Skipping, image size too large,  52776558133248
+Skipping, image size too large,  211106232532992
+Skipping, image size too large,  844424930131968
+Skipping, image size too large,  3377699720527872
+Skipping, image size too large,  51539607552
+Skipping, image size too large,  206158430208
+Skipping, image size too large,  824633720832
+Skipping, image size too large,  3298534883328
+Skipping, image size too large,  13194139533312
+Skipping, image size too large,  52776558133248
+Skipping, image size too large,  211106232532992
+Skipping, image size too large,  844424930131968
+Skipping, image size too large,  3377699720527872
+Skipping, image size too large,  51539607552
+Skipping, image size too large,  206158430208
+Skipping, image size too large,  824633720832
+Skipping, image size too large,  3298534883328
+Skipping, image size too large,  13194139533312
+Skipping, image size too large,  52776558133248
+Skipping, image size too large,  211106232532992
+Skipping, image size too large,  844424930131968
+Skipping, image size too large,  3377699720527872
+Skipping, image size too large,  51539607552
+Skipping, image size too large,  206158430208
+Skipping, image size too large,  824633720832
+Skipping, image size too large,  3298534883328
+Skipping, image size too large,  13194139533312
+Skipping, image size too large,  52776558133248
+Skipping, image size too large,  211106232532992
+Skipping, image size too large,  844424930131968
+Skipping, image size too large,  3377699720527872
+Skipping, image size too large,  51539607552
+Skipping, image size too large,  206158430208
+Skipping, image size too large,  824633720832
+Skipping, image size too large,  3298534883328
+Skipping, image size too large,  13194139533312
+Skipping, image size too large,  52776558133248
+Skipping, image size too large,  211106232532992
+Skipping, image size too large,  844424930131968
+Skipping, image size too large,  3377699720527872
+Skipping, image size too large,  51539607552
+Skipping, image size too large,  206158430208
+Skipping, image size too large,  824633720832
+Skipping, image size too large,  3298534883328
+Skipping, image size too large,  13194139533312
+Skipping, image size too large,  52776558133248
+Skipping, image size too large,  211106232532992
+Skipping, image size too large,  844424930131968
+Skipping, image size too large,  3377699720527872
+Skipping, image size too large,  85899345920
+Skipping, image size too large,  343597383680
+Skipping, image size too large,  1374389534720
+Skipping, image size too large,  5497558138880
+Skipping, image size too large,  21990232555520
+Skipping, image size too large,  87960930222080
+Skipping, image size too large,  351843720888320
+Skipping, image size too large,  1407374883553280
+Skipping, image size too large,  5629499534213120
+Skipping, image size too large,  85899345920
+Skipping, image size too large,  343597383680
+Skipping, image size too large,  1374389534720
+Skipping, image size too large,  5497558138880
+Skipping, image size too large,  21990232555520
+Skipping, image size too large,  87960930222080
+Skipping, image size too large,  351843720888320
+Skipping, image size too large,  1407374883553280
+Skipping, image size too large,  5629499534213120
+Skipping, image size too large,  85899345920
+Skipping, image size too large,  343597383680
+Skipping, image size too large,  1374389534720
+Skipping, image size too large,  5497558138880
+Skipping, image size too large,  21990232555520
+Skipping, image size too large,  87960930222080
+Skipping, image size too large,  351843720888320
+Skipping, image size too large,  1407374883553280
+Skipping, image size too large,  5629499534213120
+Skipping, image size too large,  85899345920
+Skipping, image size too large,  343597383680
+Skipping, image size too large,  1374389534720
+Skipping, image size too large,  5497558138880
+Skipping, image size too large,  21990232555520
+Skipping, image size too large,  87960930222080
+Skipping, image size too large,  351843720888320
+Skipping, image size too large,  1407374883553280
+Skipping, image size too large,  5629499534213120
+Skipping, image size too large,  85899345920
+Skipping, image size too large,  343597383680
+Skipping, image size too large,  1374389534720
+Skipping, image size too large,  5497558138880
+Skipping, image size too large,  21990232555520
+Skipping, image size too large,  87960930222080
+Skipping, image size too large,  351843720888320
+Skipping, image size too large,  1407374883553280
+Skipping, image size too large,  5629499534213120
+Skipping, image size too large,  85899345920
+Skipping, image size too large,  343597383680
+Skipping, image size too large,  1374389534720
+Skipping, image size too large,  5497558138880
+Skipping, image size too large,  21990232555520
+Skipping, image size too large,  87960930222080
+Skipping, image size too large,  351843720888320
+Skipping, image size too large,  1407374883553280
+Skipping, image size too large,  5629499534213120
+Skipping, image size too large,  85899345920
+Skipping, image size too large,  343597383680
+Skipping, image size too large,  1374389534720
+Skipping, image size too large,  5497558138880
+Skipping, image size too large,  21990232555520
+Skipping, image size too large,  87960930222080
+Skipping, image size too large,  351843720888320
+Skipping, image size too large,  1407374883553280
+Skipping, image size too large,  5629499534213120
+Skipping, image size too large,  85899345920
+Skipping, image size too large,  343597383680
+Skipping, image size too large,  1374389534720
+Skipping, image size too large,  5497558138880
+Skipping, image size too large,  21990232555520
+Skipping, image size too large,  87960930222080
+Skipping, image size too large,  351843720888320
+Skipping, image size too large,  1407374883553280
+Skipping, image size too large,  5629499534213120
+Skipping, image size too large,  85899345920
+Skipping, image size too large,  343597383680
+Skipping, image size too large,  1374389534720
+Skipping, image size too large,  5497558138880
+Skipping, image size too large,  21990232555520
+Skipping, image size too large,  87960930222080
+Skipping, image size too large,  351843720888320
+Skipping, image size too large,  1407374883553280
+Skipping, image size too large,  5629499534213120
+Skipping, image size too large,  85899345920
+Skipping, image size too large,  343597383680
+Skipping, image size too large,  1374389534720
+Skipping, image size too large,  5497558138880
+Skipping, image size too large,  21990232555520
+Skipping, image size too large,  87960930222080
+Skipping, image size too large,  351843720888320
+Skipping, image size too large,  1407374883553280
+Skipping, image size too large,  5629499534213120
+Skipping, image size too large,  85899345920
+Skipping, image size too large,  343597383680
+Skipping, image size too large,  1374389534720
+Skipping, image size too large,  5497558138880
+Skipping, image size too large,  21990232555520
+Skipping, image size too large,  87960930222080
+Skipping, image size too large,  351843720888320
+Skipping, image size too large,  1407374883553280
+Skipping, image size too large,  5629499534213120
+Skipping, image size too large,  85899345920
+Skipping, image size too large,  343597383680
+Skipping, image size too large,  1374389534720
+Skipping, image size too large,  5497558138880
+Skipping, image size too large,  21990232555520
+Skipping, image size too large,  87960930222080
+Skipping, image size too large,  351843720888320
+Skipping, image size too large,  1407374883553280
+Skipping, image size too large,  5629499534213120
