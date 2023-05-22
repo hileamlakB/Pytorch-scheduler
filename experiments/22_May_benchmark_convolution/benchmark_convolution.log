@@ -1,0 +1,166 @@
+2023-05-22 10:33:57,219 - __main__ - INFO - Creating results_convolution_0.csv
+2023-05-22 10:33:57,265 - __main__ - INFO - Creating results_convolution_1.csv
+2023-05-22 10:33:57,293 - __main__ - INFO - Creating results_convolution_2.csv
+2023-05-22 10:33:57,323 - __main__ - INFO - Creating results_convolution_3.csv
+2023-05-22 10:33:57,355 - __main__ - INFO - Created script_0_0.py
+2023-05-22 10:34:30,884 - __main__ - ERROR - There was an exception running the following parameters: 1, 1, 16, 3, 2, 32, 32, internal
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-22 10:34:32,053 - __main__ - INFO - Finished running script_0_0
+2023-05-22 10:34:32,083 - __main__ - INFO - Created script_0_1.py
+2023-05-22 10:34:51,595 - __main__ - ERROR - There was an exception running the following parameters: 1, 1, 16, 3, 2, 64, 32, internal
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-22 10:34:52,579 - __main__ - INFO - Finished running script_0_1
+2023-05-22 10:34:52,609 - __main__ - INFO - Created script_0_2.py
+2023-05-22 10:35:21,395 - __main__ - ERROR - There was an exception running the following parameters: 1, 3, 16, 3, 2, 32, 32, internal
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-22 10:35:22,484 - __main__ - INFO - Finished running script_0_2
+2023-05-22 10:35:22,514 - __main__ - INFO - Created script_0_3.py
+2023-05-22 10:35:40,711 - __main__ - ERROR - There was an exception running the following parameters: 1, 3, 16, 3, 2, 64, 32, internal
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-22 10:35:41,882 - __main__ - INFO - Finished running script_0_3
+2023-05-22 10:35:41,915 - __main__ - INFO - Created script_0_0.py
+2023-05-22 10:36:01,965 - __main__ - INFO - Finished running script_0_0
+2023-05-22 10:36:01,998 - __main__ - INFO - Created script_0_1.py
+2023-05-22 10:36:32,076 - __main__ - INFO - Finished running script_0_1
+2023-05-22 10:36:32,114 - __main__ - INFO - Created script_0_2.py
+2023-05-22 10:36:52,074 - __main__ - INFO - Finished running script_0_2
+2023-05-22 10:36:52,106 - __main__ - INFO - Created script_0_3.py
+2023-05-22 10:37:11,637 - __main__ - INFO - Finished running script_0_3
+2023-05-22 10:37:11,670 - __main__ - INFO - Created script_1_0.py
+2023-05-22 10:37:40,713 - __main__ - ERROR - There was an exception running the following parameters: 32, 1, 16, 3, 2, 32, 32, internal
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-22 10:37:41,731 - __main__ - INFO - Finished running script_1_0
+2023-05-22 10:37:41,760 - __main__ - INFO - Created script_1_1.py
+2023-05-22 10:37:59,453 - __main__ - ERROR - There was an exception running the following parameters: 32, 1, 16, 3, 2, 64, 32, internal
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-22 10:38:00,457 - __main__ - INFO - Finished running script_1_1
+2023-05-22 10:38:00,487 - __main__ - INFO - Created script_1_2.py
+2023-05-22 10:38:17,133 - __main__ - ERROR - There was an exception running the following parameters: 32, 3, 16, 3, 2, 32, 32, internal
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-22 10:38:18,308 - __main__ - INFO - Finished running script_1_2
+2023-05-22 10:38:18,338 - __main__ - INFO - Created script_1_3.py
+2023-05-22 10:38:46,188 - __main__ - ERROR - There was an exception running the following parameters: 32, 3, 16, 3, 2, 64, 32, internal
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-22 10:38:47,315 - __main__ - INFO - Finished running script_1_3
+2023-05-22 10:38:47,345 - __main__ - INFO - Created script_1_0.py
+2023-05-22 10:39:06,957 - __main__ - INFO - Finished running script_1_0
+2023-05-22 10:39:06,990 - __main__ - INFO - Created script_1_1.py
+2023-05-22 10:39:25,228 - __main__ - INFO - Finished running script_1_1
+2023-05-22 10:39:25,261 - __main__ - INFO - Created script_1_2.py
+2023-05-22 10:39:55,838 - __main__ - INFO - Finished running script_1_2
+2023-05-22 10:39:55,876 - __main__ - INFO - Created script_1_3.py
+2023-05-22 10:40:14,730 - __main__ - INFO - Finished running script_1_3
+2023-05-22 10:40:14,763 - __main__ - INFO - Created script_2_0.py
+2023-05-22 10:40:32,154 - __main__ - ERROR - There was an exception running the following parameters: 1, 1, 16, 3, 2, 32, 64, internal
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-22 10:40:33,211 - __main__ - INFO - Finished running script_2_0
+2023-05-22 10:40:33,241 - __main__ - INFO - Created script_2_1.py
+2023-05-22 10:41:01,471 - __main__ - ERROR - There was an exception running the following parameters: 1, 1, 16, 3, 2, 64, 64, internal
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-22 10:41:02,654 - __main__ - INFO - Finished running script_2_1
+2023-05-22 10:41:02,684 - __main__ - INFO - Created script_2_2.py
+2023-05-22 10:41:19,968 - __main__ - ERROR - There was an exception running the following parameters: 1, 3, 16, 3, 2, 32, 64, internal
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-22 10:41:20,965 - __main__ - INFO - Finished running script_2_2
+2023-05-22 10:41:20,998 - __main__ - INFO - Created script_2_3.py
+2023-05-22 10:41:37,821 - __main__ - ERROR - There was an exception running the following parameters: 1, 3, 16, 3, 2, 64, 64, internal
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-22 10:41:38,987 - __main__ - INFO - Finished running script_2_3
+2023-05-22 10:41:39,019 - __main__ - INFO - Created script_2_0.py
+2023-05-22 10:42:09,435 - __main__ - INFO - Finished running script_2_0
+2023-05-22 10:42:09,473 - __main__ - INFO - Created script_2_1.py
+2023-05-22 10:42:28,531 - __main__ - INFO - Finished running script_2_1
+2023-05-22 10:42:28,566 - __main__ - INFO - Created script_2_2.py
+2023-05-22 10:42:47,239 - __main__ - INFO - Finished running script_2_2
+2023-05-22 10:42:47,279 - __main__ - INFO - Created script_2_3.py
+2023-05-22 10:43:17,344 - __main__ - INFO - Finished running script_2_3
+2023-05-22 10:43:17,381 - __main__ - INFO - Created script_3_0.py
+2023-05-22 10:43:34,569 - __main__ - ERROR - There was an exception running the following parameters: 32, 1, 16, 3, 2, 32, 64, internal
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-22 10:43:35,605 - __main__ - INFO - Finished running script_3_0
+2023-05-22 10:43:35,635 - __main__ - INFO - Created script_3_1.py
+2023-05-22 10:43:52,533 - __main__ - ERROR - There was an exception running the following parameters: 32, 1, 16, 3, 2, 64, 64, internal
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-22 10:43:53,567 - __main__ - INFO - Finished running script_3_1
+2023-05-22 10:43:53,597 - __main__ - INFO - Created script_3_2.py
+2023-05-22 10:44:22,242 - __main__ - ERROR - There was an exception running the following parameters: 32, 3, 16, 3, 2, 32, 64, internal
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-22 10:44:23,258 - __main__ - INFO - Finished running script_3_2
+2023-05-22 10:44:23,287 - __main__ - INFO - Created script_3_3.py
+2023-05-22 10:44:40,381 - __main__ - ERROR - There was an exception running the following parameters: 32, 3, 16, 3, 2, 64, 64, internal
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-22 10:44:41,448 - __main__ - INFO - Finished running script_3_3
+2023-05-22 10:44:41,480 - __main__ - INFO - Created script_3_0.py
+2023-05-22 10:45:00,116 - __main__ - INFO - Finished running script_3_0
+2023-05-22 10:45:00,149 - __main__ - INFO - Created script_3_1.py
+2023-05-22 10:45:30,777 - __main__ - INFO - Finished running script_3_1
+2023-05-22 10:45:30,816 - __main__ - INFO - Created script_3_2.py
+2023-05-22 10:45:50,160 - __main__ - INFO - Finished running script_3_2
+2023-05-22 10:45:50,192 - __main__ - INFO - Created script_3_3.py
+2023-05-22 10:46:09,155 - __main__ - INFO - Finished running script_3_3
+2023-05-22 10:46:09,184 - __main__ - INFO - Merging results into results_convolution.csv
+2023-05-22 10:46:09,239 - __main__ - INFO - Finished benchmarking convolution
