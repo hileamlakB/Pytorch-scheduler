@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 from torch.utils.custom_benchmark import status
 import csv
+import time
 
 from concurrent_log_handler import ConcurrentRotatingFileHandler
 import logging
@@ -15,6 +16,20 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 logger.addHandler(handler)
 
+datatypes = [torch.uint8,
+     torch.int8,
+     torch.int16,
+     torch.int32,
+     torch.int64,
+     torch.float16,
+     torch.float32,
+     torch.float64,
+     torch.complex32,
+     torch.complex64,
+     torch.complex32,
+     torch.bool,
+     torch.bfloat16]
+
 class ConvNet(nn.Module):
     def __init__(self, in_channels, out_channels, kernel_size, stride, groups):
         super(ConvNet, self).__init__()
@@ -24,11 +39,12 @@ class ConvNet(nn.Module):
         out = self.conv(x)
         return out
 
-model = ConvNet({in_channels}, {out_channels}, {kernel_size}, {stride}, {group})
+model = ConvNet(1, 32, 5, 1, 1)
 model = torch.compile(model.to('cuda'), backend="inductor")
 
 
-x = torch.randn({batch_size}, {in_channels}, {width}, {height}, device="cuda", dtype={datatype})  
+
+x = torch.randn(64, 1, 64, 64, device="cuda", dtype=torch.float32)  
 # run the benchmark ourselve using cudaEvent
 times = []
 # Warmup for 5 iterations
@@ -44,3 +60,11 @@ for _ in range(100):
     torch.cuda.synchronize()  # Wait for the events to complete
     end_event.record()
     times.append(start_event.elapsed_time(end_event))  # Time in milliseconds
+    del output
+    torch.cuda.empty_cache()
+    time.sleep(0.1)
+print(times)
+times_tensor = torch.tensor(times)
+mode_value = torch.mode(times_tensor).values.item()
+average_value = torch.mean(times_tensor).item()
+print(mode_value, average_value)
