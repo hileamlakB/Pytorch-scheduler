@@ -25,15 +25,30 @@ def get_dtype_size(dtype):
 
 
 # Define the range of parameters
-widths = [32, 64]
-heights = widths[:]
-in_channels_list = [1, 3]
-out_channels_list = [16]
-batch_sizes = [1, 32]
-kernel_sizes = [3]
-strides = [2]
-groups = [1]
-datatypes = [torch.float32]
+widths = [32, 42, 52, 64, 104, 144, 128, 180, 256, 590, 512, 800, 1024, 2000, 2048, 3900, 4000, 4096, 5000, 5900, 6000, 6782, 6103, 8192, 16384, 32768,65536,131072]
+width_len = len(widths) // 7
+heights = widths[:width_len]
+in_channels_list = [1, 3, 5]
+out_channels_list = [16, 32, 64]
+batch_sizes = [1, 32, 64, 128, 256]
+kernel_sizes = [3, 5, 7, 9]
+strides = [1, 2, 3, 4]
+groups = [1,2,3,4,5]
+datatypes = [
+#   torch.uint8,
+#      torch.int8,
+#      torch.int16,
+#      torch.int32,
+#      torch.int64,
+#      torch.float16,
+     torch.float32,
+    #  torch.float64,
+    #  torch.complex32,
+    #  torch.complex64,
+    #  torch.complex32,
+    #  torch.bool,
+    #  torch.bfloat16
+]
 
 
 # Generate all combinations of parameters
@@ -152,7 +167,7 @@ os.remove(__file__)
     os.system(cmd)
     logger.info(f"Finished running script_{gpu}_{i}")
             
-with tqdm(total=len(chunks)*num_gpus*2) as pbar:
+with tqdm(total=len(chunks[0])*num_gpus*2) as pbar:
       
     for gpu in range(num_gpus):
         for ltype in ["internal", "external"]:
@@ -161,9 +176,13 @@ with tqdm(total=len(chunks)*num_gpus*2) as pbar:
                 # Check if the image size is too large for the GPU
                 weight_size = out_channels * in_channels * kernel_size * kernel_size
                 bias_size = out_channels
-                approximate_size = (width * height * in_channels * batch_size + weight_size + bias_size) * 4
+                approximate_size = (width * height * in_channels * batch_size + weight_size + bias_size) * get_dtype_size(datatype)
                 if approximate_size > max_memory:
                     logger.info(f"Skipping large image: {approximate_size}. Width: {width}, Height: {height}, In Channels: {in_channels}, Batch Size: {batch_size}, Out Channels: {out_channels}, Kernel Size: {kernel_size}, Stride: {stride}")
+                    continue
+                    
+                if in_channels == 3 and datatype == "torch.float16":
+                    logger.info(f"Skipping datatype: {datatype} for in_channels: {in_channels}")
                     continue
                 
                 run_script((gpu, ltype, in_channels, out_channels, kernel_size, stride, width, height, batch_size, group, datatype))

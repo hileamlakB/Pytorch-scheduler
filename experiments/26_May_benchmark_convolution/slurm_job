@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#SBATCH --job-name=collect_data_tesla_v100-pcie-32gb
+#SBATCH --output=collect_data_tesla_v100-pcie-32gb_%j.out
+#SBATCH --error=collect_data_tesla_v100-pcie-32gb_%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --gres=gpu:tesla_v100-pcie-32gb:2
+#SBATCH --mem=32G
+#SBATCH --time=8:00:00
+#SBATCH --partition=gpu_test
+
+cd /n/home07/hyitayew/Research/Summer 2023/experiments/Final_convolution_benchmark
+python benchmark.py 1

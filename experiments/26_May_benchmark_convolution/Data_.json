@@ -1,0 +1,58 @@
+{
+    "nodes": [
+        {
+            "flops": 1048576.0,
+            "ops": [
+                "aten.mm"
+            ],
+            "inputs": [
+                {
+                    "dtype": "torch.float32",
+                    "size": [
+                        "1",
+                        "1024"
+                    ],
+                    "stride": [
+                        "1024",
+                        "1"
+                    ]
+                },
+                {
+                    "dtype": "torch.float32",
+                    "size": [
+                        "1024",
+                        "512"
+                    ],
+                    "stride": [
+                        "1",
+                        "1024"
+                    ]
+                }
+            ],
+            "kwargs": [
+                {}
+            ],
+            "triton": {
+                "kernel_name": "aten.mm",
+                "kernel_path": ""
+            }
+        }
+    ],
+    "gpu_info": {
+        "name": "Tesla V100-PCIE-32GB",
+        "compute_capability": [
+            7,
+            0
+        ],
+        "total_memory": 32510.6875,
+        "clock_rate": 1380.0,
+        "memory_clock_rate": 877.0,
+        "num_multiprocessors": 80,
+        "max_threads_per_block": 1024,
+        "max_threads_per_multiprocessor": 2048,
+        "warp_size": 32,
+        "l2_cache_size": 6291456,
+        "max_shared_memory_per_multiprocessor": 98304,
+        "global_memory_bus_width": 4096
+    }
+}

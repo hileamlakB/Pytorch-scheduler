@@ -92,3 +92,266 @@ Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
 2023-05-23 09:55:10,565 - __main__ - INFO - Finished running script_3_3
 2023-05-23 09:55:10,598 - __main__ - INFO - Merging results into results_convolution.csv
 2023-05-23 09:55:10,654 - __main__ - INFO - Finished benchmarking convolution
+2023-05-25 22:50:10,624 - __main__ - INFO - Creating results_convolution_0.csv
+2023-05-25 22:50:10,714 - __main__ - INFO - Creating results_convolution_1.csv
+2023-05-25 22:50:10,741 - __main__ - INFO - Creating results_convolution_2.csv
+2023-05-25 22:50:10,769 - __main__ - INFO - Creating results_convolution_3.csv
+2023-05-25 22:50:10,826 - __main__ - INFO - Created script_0_0.py
+2023-05-25 22:50:54,133 - __main__ - INFO - Finished running script_0_0
+2023-05-25 22:50:54,166 - __main__ - INFO - Created script_0_1.py
+2023-05-25 22:51:37,117 - __main__ - INFO - Finished running script_0_1
+2023-05-25 22:51:37,156 - __main__ - INFO - Created script_0_2.py
+2023-05-25 22:52:25,435 - __main__ - INFO - Finished running script_0_2
+2023-05-25 22:52:25,467 - __main__ - INFO - Created script_0_3.py
+2023-05-25 22:53:08,015 - __main__ - INFO - Finished running script_0_3
+2023-05-25 22:53:08,053 - __main__ - INFO - Created script_0_0.py
+2023-05-25 22:53:35,651 - __main__ - INFO - Finished running script_0_0
+2023-05-25 22:53:35,685 - __main__ - INFO - Created script_0_1.py
+2023-05-25 22:53:57,462 - __main__ - INFO - Finished running script_0_1
+2023-05-25 22:53:57,495 - __main__ - INFO - Created script_0_2.py
+2023-05-25 22:54:15,432 - __main__ - INFO - Finished running script_0_2
+2023-05-25 22:54:15,470 - __main__ - INFO - Created script_0_3.py
+2023-05-25 22:54:42,986 - __main__ - INFO - Finished running script_0_3
+2023-05-25 22:54:43,019 - __main__ - INFO - Created script_1_0.py
+2023-05-25 22:55:10,222 - __main__ - ERROR - There was an exception running the following parameters: 32, 1, 16, 3, 2, 32, 32, internal on gpu:1
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-25 22:55:11,350 - __main__ - INFO - Finished running script_1_0
+2023-05-25 22:55:11,380 - __main__ - INFO - Created script_1_1.py
+2023-05-25 22:55:30,437 - __main__ - ERROR - There was an exception running the following parameters: 32, 1, 16, 3, 2, 64, 32, internal on gpu:1
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-25 22:55:31,387 - __main__ - INFO - Finished running script_1_1
+2023-05-25 22:55:31,417 - __main__ - INFO - Created script_1_2.py
+2023-05-25 22:56:10,195 - __main__ - ERROR - There was an exception running the following parameters: 32, 3, 16, 3, 2, 32, 32, internal on gpu:1
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-25 22:56:11,277 - __main__ - INFO - Finished running script_1_2
+2023-05-25 22:56:11,317 - __main__ - INFO - Created script_1_3.py
+2023-05-25 22:56:34,459 - __main__ - ERROR - There was an exception running the following parameters: 32, 3, 16, 3, 2, 64, 32, internal on gpu:1
+CUDA error: device not ready
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-05-25 22:56:35,465 - __main__ - INFO - Finished running script_1_3
+2023-05-25 22:56:35,495 - __main__ - INFO - Created script_1_0.py
+2023-05-25 22:57:07,289 - __main__ - INFO - Finished running script_1_0
+2023-05-25 22:57:07,322 - __main__ - INFO - Created script_1_1.py
+2023-05-25 22:57:25,538 - __main__ - INFO - Finished running script_1_1
+2023-05-25 22:57:25,571 - __main__ - INFO - Created script_1_2.py
+2023-05-25 22:57:43,571 - __main__ - INFO - Finished running script_1_2
+2023-05-25 22:57:43,609 - __main__ - INFO - Created script_1_3.py
+2023-05-25 22:58:15,148 - __main__ - INFO - Finished running script_1_3
+2023-05-25 22:58:15,180 - __main__ - INFO - Created script_2_0.py
+2023-05-25 22:58:53,894 - __main__ - INFO - Finished running script_2_0
+2023-05-25 22:58:53,932 - __main__ - INFO - Created script_2_1.py
+2023-05-25 22:59:45,942 - __main__ - INFO - Finished running script_2_1
+2023-05-25 22:59:45,975 - __main__ - INFO - Created script_2_2.py
+2023-05-25 23:00:24,552 - __main__ - INFO - Finished running script_2_2
+2023-05-25 23:00:24,591 - __main__ - INFO - Created script_2_3.py
+2023-05-25 23:01:16,338 - __main__ - INFO - Finished running script_2_3
+2023-05-25 23:01:16,371 - __main__ - INFO - Created script_2_0.py
+2023-05-25 23:01:35,483 - __main__ - INFO - Finished running script_2_0
+2023-05-25 23:01:35,521 - __main__ - INFO - Created script_2_1.py
+2023-05-25 23:02:05,878 - __main__ - INFO - Finished running script_2_1
+2023-05-25 23:02:05,911 - __main__ - INFO - Created script_2_2.py
+2023-05-25 23:02:24,073 - __main__ - INFO - Finished running script_2_2
+2023-05-25 23:02:24,116 - __main__ - INFO - Created script_2_3.py
+2023-05-25 23:02:43,216 - __main__ - INFO - Finished running script_2_3
+2023-05-25 23:02:43,254 - __main__ - INFO - Created script_3_0.py
+2023-05-25 23:03:34,334 - __main__ - INFO - Finished running script_3_0
+2023-05-25 23:03:34,367 - __main__ - INFO - Created script_3_1.py
+2023-05-25 23:04:14,236 - __main__ - INFO - Finished running script_3_1
+2023-05-25 23:04:14,274 - __main__ - INFO - Created script_3_2.py
+2023-05-25 23:05:04,836 - __main__ - INFO - Finished running script_3_2
+2023-05-25 23:05:04,868 - __main__ - INFO - Created script_3_3.py
+2023-05-25 23:05:11,531 - __main__ - INFO - Finished running script_3_3
+2023-05-25 23:05:11,564 - __main__ - INFO - Created script_3_0.py
+2023-05-25 23:05:12,239 - __main__ - INFO - Finished running script_3_0
+2023-05-25 23:05:12,270 - __main__ - INFO - Created script_3_1.py
+2023-05-25 23:05:12,652 - __main__ - INFO - Finished running script_3_1
+2023-05-25 23:05:12,683 - __main__ - INFO - Created script_3_2.py
+2023-05-25 23:05:12,897 - __main__ - INFO - Finished running script_3_2
+2023-05-25 23:05:12,930 - __main__ - INFO - Created script_3_3.py
+2023-05-25 23:05:13,263 - __main__ - INFO - Finished running script_3_3
+2023-05-25 23:07:37,614 - __main__ - INFO - Creating results_convolution_0.csv
+2023-05-25 23:07:37,653 - __main__ - INFO - Creating results_convolution_1.csv
+2023-05-25 23:07:37,683 - __main__ - INFO - Creating results_convolution_2.csv
+2023-05-25 23:07:37,713 - __main__ - INFO - Creating results_convolution_3.csv
+2023-05-25 23:07:37,764 - __main__ - INFO - Created script_0_0.py
+2023-05-25 23:08:21,229 - __main__ - INFO - Finished running script_0_0
+2023-05-25 23:08:21,263 - __main__ - INFO - Created script_0_1.py
+2023-05-25 23:09:03,674 - __main__ - INFO - Finished running script_0_1
+2023-05-25 23:09:03,712 - __main__ - INFO - Created script_0_2.py
+2023-05-25 23:09:51,799 - __main__ - INFO - Finished running script_0_2
+2023-05-25 23:09:51,833 - __main__ - INFO - Created script_0_3.py
+2023-05-25 23:10:34,054 - __main__ - INFO - Finished running script_0_3
+2023-05-25 23:10:34,092 - __main__ - INFO - Created script_0_0.py
+2023-05-25 23:11:01,778 - __main__ - INFO - Finished running script_0_0
+2023-05-25 23:11:01,811 - __main__ - INFO - Created script_0_1.py
+2023-05-25 23:11:09,969 - __main__ - INFO - Finished running script_0_1
+2023-05-25 23:11:10,003 - __main__ - INFO - Created script_0_2.py
+2023-05-25 23:11:10,686 - __main__ - INFO - Finished running script_0_2
+2023-05-25 23:11:10,716 - __main__ - INFO - Created script_0_3.py
+2023-05-25 23:11:11,372 - __main__ - INFO - Finished running script_0_3
+2023-05-25 23:11:11,402 - __main__ - INFO - Created script_1_0.py
+2023-05-25 23:11:13,163 - __main__ - INFO - Finished running script_1_0
+2023-05-25 23:11:13,196 - __main__ - INFO - Created script_1_1.py
+2023-05-25 23:11:14,582 - __main__ - INFO - Finished running script_1_1
+2023-05-25 23:11:14,612 - __main__ - INFO - Created script_1_2.py
+2023-05-25 23:11:14,669 - __main__ - INFO - Finished running script_1_2
+2023-05-25 23:11:14,699 - __main__ - INFO - Created script_1_3.py
+2023-05-25 23:11:15,991 - __main__ - INFO - Finished running script_1_3
+2023-05-25 23:11:16,024 - __main__ - INFO - Created script_1_0.py
+2023-05-25 23:11:16,093 - __main__ - INFO - Finished running script_1_0
+2023-05-25 23:11:16,123 - __main__ - INFO - Created script_1_1.py
+2023-05-25 23:11:16,297 - __main__ - INFO - Finished running script_1_1
+2023-05-25 23:11:16,333 - __main__ - INFO - Created script_1_2.py
+2023-05-25 23:11:16,458 - __main__ - INFO - Finished running script_1_2
+2023-05-25 23:11:16,488 - __main__ - INFO - Created script_1_3.py
+2023-05-25 23:11:16,623 - __main__ - INFO - Finished running script_1_3
+2023-05-25 23:11:16,653 - __main__ - INFO - Created script_2_0.py
+2023-05-25 23:11:16,814 - __main__ - INFO - Finished running script_2_0
+2023-05-25 23:11:16,844 - __main__ - INFO - Created script_2_1.py
+2023-05-25 23:11:17,013 - __main__ - INFO - Finished running script_2_1
+2023-05-25 23:11:17,043 - __main__ - INFO - Created script_2_2.py
+2023-05-25 23:11:17,161 - __main__ - INFO - Finished running script_2_2
+2023-05-25 23:11:17,192 - __main__ - INFO - Created script_2_3.py
+2023-05-25 23:11:17,680 - __main__ - INFO - Finished running script_2_3
+2023-05-25 23:11:17,714 - __main__ - INFO - Created script_2_0.py
+2023-05-28 00:12:09,886 - __main__ - INFO - Creating results_convolution_0.csv
+2023-05-28 00:12:10,004 - __main__ - INFO - Created script_0_0.py
+2023-05-28 00:12:49,762 - __main__ - ERROR - There was an exception running the following parameters: 1, 1, 16, 3, 2, 32, 32, internal on gpu:0
+backend='inductor' raised:
+RuntimeError: Cannot find a working triton installation. More information on installing Triton can be found at https://github.com/openai/triton
+
+
+You can suppress this exception and fall back to eager by setting:
+    import torch._dynamo
+    torch._dynamo.config.suppress_errors = True
+
+2023-05-28 00:12:50,309 - __main__ - INFO - Finished running script_0_0
+2023-05-28 00:12:50,343 - __main__ - INFO - Created script_0_1.py
+2023-05-28 00:13:16,328 - __main__ - ERROR - There was an exception running the following parameters: 32, 1, 16, 3, 2, 32, 32, internal on gpu:0
+backend='inductor' raised:
+RuntimeError: Cannot find a working triton installation. More information on installing Triton can be found at https://github.com/openai/triton
+
+
+You can suppress this exception and fall back to eager by setting:
+    import torch._dynamo
+    torch._dynamo.config.suppress_errors = True
+
+2023-05-28 00:13:16,887 - __main__ - INFO - Finished running script_0_1
+2023-05-28 00:13:16,922 - __main__ - INFO - Created script_0_2.py
+2023-05-28 00:13:24,402 - __main__ - INFO - Finished running script_0_2
+2023-05-28 00:13:24,439 - __main__ - INFO - Created script_0_3.py
+2023-05-28 00:13:26,125 - __main__ - INFO - Finished running script_0_3
+2023-05-28 00:30:34,702 - __main__ - INFO - Creating results_convolution_0.csv
+2023-05-28 00:30:34,765 - __main__ - INFO - Created script_0_0.py
+2023-05-28 00:30:54,434 - __main__ - ERROR - There was an exception running the following parameters: 1, 1, 16, 3, 2, 32, 32, internal on gpu:0
+backend='inductor' raised:
+ModuleNotFoundError: No module named 'pycuda'
+
+
+You can suppress this exception and fall back to eager by setting:
+    import torch._dynamo
+    torch._dynamo.config.suppress_errors = True
+
+2023-05-28 00:30:55,000 - __main__ - INFO - Finished running script_0_0
+2023-05-28 00:30:55,031 - __main__ - INFO - Created script_0_1.py
+2023-05-28 00:31:04,555 - __main__ - INFO - Finished running script_0_1
+2023-05-28 00:31:04,591 - __main__ - INFO - Created script_0_2.py
+2023-05-28 00:31:05,928 - __main__ - INFO - Finished running script_0_2
+2023-05-28 00:31:05,961 - __main__ - INFO - Created script_0_3.py
+2023-05-28 00:31:07,623 - __main__ - INFO - Finished running script_0_3
+2023-05-28 00:34:28,740 - __main__ - INFO - Creating results_convolution_0.csv
+2023-05-28 00:34:28,800 - __main__ - INFO - Created script_0_0.py
+2023-05-28 00:35:14,452 - __main__ - INFO - Finished running script_0_0
+2023-05-28 00:35:14,488 - __main__ - INFO - Created script_0_1.py
+2023-05-28 00:36:04,923 - __main__ - INFO - Finished running script_0_1
+2023-05-28 00:36:04,964 - __main__ - INFO - Created script_0_2.py
+2023-05-28 00:36:48,077 - __main__ - INFO - Finished running script_0_2
+2023-05-28 00:36:48,113 - __main__ - INFO - Created script_0_3.py
+2023-05-28 00:37:00,377 - __main__ - INFO - Finished running script_0_3
+2023-05-28 00:37:00,413 - __main__ - INFO - Created script_0_4.py
+2023-05-28 00:37:00,562 - __main__ - INFO - Finished running script_0_4
+2023-05-28 00:37:00,593 - __main__ - INFO - Created script_0_5.py
+2023-05-28 00:37:01,026 - __main__ - INFO - Finished running script_0_5
+2023-05-28 00:37:01,057 - __main__ - INFO - Created script_0_6.py
+2023-05-28 00:37:01,411 - __main__ - INFO - Finished running script_0_6
+2023-05-28 00:37:01,441 - __main__ - INFO - Created script_0_7.py
+2023-05-28 00:37:01,589 - __main__ - INFO - Finished running script_0_7
+2023-05-28 00:37:01,620 - __main__ - INFO - Created script_0_8.py
+2023-05-28 00:37:01,802 - __main__ - INFO - Finished running script_0_8
+2023-05-28 00:37:01,833 - __main__ - INFO - Created script_0_9.py
+2023-05-28 00:37:03,291 - __main__ - INFO - Finished running script_0_9
+2023-05-28 00:37:03,322 - __main__ - INFO - Created script_0_10.py
+2023-05-28 00:37:03,741 - __main__ - INFO - Finished running script_0_10
+2023-05-28 00:37:16,256 - __main__ - INFO - Creating results_convolution_0.csv
+2023-05-28 00:37:16,316 - __main__ - INFO - Created script_0_0.py
+2023-05-28 00:37:51,258 - __main__ - INFO - Finished running script_0_0
+2023-05-28 00:37:51,292 - __main__ - INFO - Created script_0_1.py
+2023-05-28 00:37:51,364 - __main__ - INFO - Finished running script_0_1
+2023-05-28 00:37:51,395 - __main__ - INFO - Created script_0_2.py
+2023-05-28 00:37:51,658 - __main__ - INFO - Finished running script_0_2
+2023-05-28 00:37:51,691 - __main__ - INFO - Created script_0_3.py
+2023-05-28 00:37:53,193 - __main__ - INFO - Finished running script_0_3
+2023-05-28 00:38:07,662 - __main__ - INFO - Creating results_convolution_0.csv
+2023-05-28 00:38:07,707 - __main__ - INFO - Created script_0_0.py
+2023-05-28 00:38:49,313 - __main__ - INFO - Finished running script_0_0
+2023-05-28 00:38:49,354 - __main__ - INFO - Created script_0_1.py
+2023-05-28 00:39:35,749 - __main__ - INFO - Finished running script_0_1
+2023-05-28 00:39:35,785 - __main__ - INFO - Created script_0_2.py
+2023-05-28 00:40:21,489 - __main__ - INFO - Finished running script_0_2
+2023-05-28 00:40:21,530 - __main__ - INFO - Created script_0_3.py
+2023-05-28 00:41:07,988 - __main__ - INFO - Finished running script_0_3
+2023-05-28 00:41:08,024 - __main__ - INFO - Created script_0_4.py
+2023-05-28 00:41:54,840 - __main__ - INFO - Finished running script_0_4
+2023-05-28 00:41:54,883 - __main__ - INFO - Created script_0_5.py
+2023-05-28 00:42:39,974 - __main__ - INFO - Finished running script_0_5
+2023-05-28 00:42:40,010 - __main__ - INFO - Created script_0_6.py
+2023-05-28 00:43:27,054 - __main__ - INFO - Finished running script_0_6
+2023-05-28 00:43:27,095 - __main__ - INFO - Created script_0_7.py
+2023-05-28 00:44:12,180 - __main__ - INFO - Finished running script_0_7
+2023-05-28 00:44:12,216 - __main__ - INFO - Created script_0_8.py
+2023-05-28 00:44:59,212 - __main__ - INFO - Finished running script_0_8
+2023-05-28 00:44:59,253 - __main__ - INFO - Created script_0_9.py
+2023-05-28 00:45:44,233 - __main__ - INFO - Finished running script_0_9
+2023-05-28 00:45:44,269 - __main__ - INFO - Created script_0_10.py
+2023-05-28 00:46:26,476 - __main__ - INFO - Finished running script_0_10
+2023-05-28 00:46:26,518 - __main__ - INFO - Created script_0_11.py
+2023-05-28 00:46:26,563 - __main__ - INFO - Finished running script_0_11
+2023-05-28 00:46:26,593 - __main__ - INFO - Created script_0_12.py
+2023-05-28 00:46:26,845 - __main__ - INFO - Finished running script_0_12
+2023-05-28 00:46:26,876 - __main__ - INFO - Created script_0_13.py
+2023-05-28 00:46:27,084 - __main__ - INFO - Finished running script_0_13
+2023-05-28 00:46:27,115 - __main__ - INFO - Created script_0_14.py
+2023-05-28 00:46:27,299 - __main__ - INFO - Finished running script_0_14
+2023-05-28 00:46:27,329 - __main__ - INFO - Created script_0_15.py
+2023-05-28 00:46:29,071 - __main__ - INFO - Finished running script_0_15
+2023-05-28 00:47:32,431 - __main__ - INFO - Creating results_convolution_0.csv
+2023-05-28 00:47:32,500 - __main__ - INFO - Created script_0_0.py
+2023-05-28 00:48:16,959 - __main__ - INFO - Finished running script_0_0
+2023-05-28 00:48:17,003 - __main__ - INFO - Created script_0_1.py
+2023-05-28 00:48:53,033 - __main__ - INFO - Finished running script_0_1
+2023-05-28 00:48:53,072 - __main__ - INFO - Created script_0_2.py
+2023-05-28 00:48:53,638 - __main__ - INFO - Finished running script_0_2
+2023-05-28 00:48:53,670 - __main__ - INFO - Created script_0_3.py
+2023-05-28 00:48:53,774 - __main__ - INFO - Finished running script_0_3
+2023-05-28 00:48:53,805 - __main__ - INFO - Created script_0_4.py
+2023-05-28 00:48:53,959 - __main__ - INFO - Finished running script_0_4
+2023-05-28 00:48:53,990 - __main__ - INFO - Created script_0_5.py
+2023-05-28 00:48:54,134 - __main__ - INFO - Finished running script_0_5
+2023-05-28 00:48:54,164 - __main__ - INFO - Created script_0_6.py
+2023-05-28 00:48:54,806 - __main__ - INFO - Finished running script_0_6
+2023-05-28 00:48:54,838 - __main__ - INFO - Created script_0_7.py

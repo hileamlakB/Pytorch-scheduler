@@ -1,0 +1,3 @@
+Figure out the paramaters that go into mm and addmm
+    - Figure out how the Fully connected layer uses mm and addmm to manipualet the input sizes
+Figout out the other kenels like batchn norm and attention

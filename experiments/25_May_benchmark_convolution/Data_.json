@@ -1,7 +1,7 @@
 {
     "nodes": [
         {
-            "flops": 2359296.0,
+            "flops": 294912.0,
             "ops": [
                 "aten.convolution"
             ],
@@ -9,7 +9,7 @@
                 {
                     "dtype": "torch.float32",
                     "size": [
-                        "32",
+                        "1",
                         "1",
                         "32",
                         "32"
@@ -40,8 +40,8 @@
             "kwargs": [
                 {
                     "stride": [
-                        2,
-                        2
+                        1,
+                        1
                     ],
                     "padding": [
                         1,
@@ -74,15 +74,15 @@
                 {
                     "dtype": "torch.float32",
                     "size": [
+                        "1",
+                        "16",
                         "32",
-                        "16",
-                        "16",
-                        "16"
+                        "32"
                     ],
                     "stride": [
-                        "4096",
-                        "256",
-                        "16",
+                        "16384",
+                        "1024",
+                        "32",
                         "1"
                     ]
                 }
@@ -90,7 +90,7 @@
             "kwargs": [],
             "triton": {
                 "kernel_name": "triton_poi_fused_convolution_0",
-                "kernel_path": "/tmp/torchinductor_hyitayew/ew/cewr6ssh2tegq6jb4lchcpho6w6gyjyb5htbv6n3pxlpe2yeumzj.py"
+                "kernel_path": "/tmp/torchinductor_hyitayew/nn/cnnzkg5qvbgesq26pwt44bbhv7l7udu64c564mmu2wykhlhf6gsv.py"
             }
         }
     ],

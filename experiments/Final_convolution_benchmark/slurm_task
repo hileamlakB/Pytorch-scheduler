@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#SBATCH --job-name=collect_data_tesla_v100-pcie-32gb
+#SBATCH --output=collect_data_tesla_v100-pcie-32gb_%a.out
+#SBATCH --error=collect_data_tesla_v100-pcie-32gb_%a.err
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --gres=gpu:tesla_v100-pcie-32gb:2
+#SBATCH --mem=32G
+#SBATCH --time=24:00:00
+#SBATCH --partition=gpu_test
+#SBATCH --array=1-100
+
+cd /n/home07/hyitayew/Research/Summer 2023/experiments/Final_convolution_benchmark
+mkdir ${SLURM_ARRAY_TASK_ID}
+cd ${SLURM_ARRAY_TASK_ID}
+python ../benchmark.py --division ${SLURM_ARRAY_TASK_ID}

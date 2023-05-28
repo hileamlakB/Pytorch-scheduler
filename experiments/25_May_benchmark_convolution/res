@@ -1,0 +1,46 @@
+----------------file_name: scheduler, line_number: around 1277
+ExternKernelAlloc(
+  name=buf0,
+  layout=FixedLayout('cuda', torch.float32, size=[1, 32, 32, 32], stride=[32768, 1024, 32, 1]),
+  inputs=[InputBuffer(name='primals_2', layout=FixedLayout('cuda', torch.float32, size=[1, 1, 32, 32], stride=[1024, 1024, 32, 1])), InputBuffer(name='primals_1', layout=FixedLayout('cuda', torch.float32, size=[32, 1, 5, 5], stride=[25, 25, 5, 1]))],
+  constant_args=(),
+  kwargs={'stride': (1, 1), 'padding': (2, 2), 'dilation': (1, 1), 'transposed': False, 'output_padding': (0, 0), 'groups': 1, 'bias': None},
+  output_view=None,
+  origin_node=convolution,
+  origins={convolution}
+)
+ReadWrites(reads={StarDep(name='primals_1'), StarDep(name='primals_2')}, writes={StarDep(name='buf0')}, index_exprs=set(), range_vars=[], var_ranges=None)
+{'_args': (primals_2,
+           primals_1,
+           None,
+           [1, 1],
+           [2, 2],
+           [1, 1],
+           False,
+           [0, 0],
+           1),
+ '_erased': False,
+ '_input_nodes': {primals_1: None, primals_2: None},
+ '_kwargs': {},
+ '_next': output,
+ '_prev': primals_2,
+ '_repr_fn': None,
+ 'graph': <torch.fx.graph.Graph object at 0x2ad0b1ef7010>,
+ 'meta': {'nn_module_stack': {'L__self___conv': ("L['self'].conv",
+                                                 <class 'torch.nn.modules.conv.Conv2d'>)},
+          'original_aten': <OpOverload(op='aten.convolution', overload='default')>,
+          'source_fn': <class 'torch.nn.modules.conv.Conv2d'>,
+          'stack_trace': '  File "/n/home07/hyitayew/Research/Summer '
+                         '2023/experiments/25_May_benchmark_convolution/test_bias.py", '
+                         'line 12, in forward\n'
+                         '    out = self.conv(x)\n',
+          'tensor_meta': TensorMetadata(shape=torch.Size([1, 32, 32, 32]), dtype=torch.float32, requires_grad=False, stride=(32768, 1024, 32, 1), memory_format=torch.contiguous_format, is_quantized=False, qparams={}),
+          'val': FakeTensor(..., device='cuda:0', size=(1, 32, 32, 32))},
+ 'name': 'convolution',
+ 'op': 'call_function',
+ 'target': <OpOverload(op='aten.convolution', overload='default')>,
+ 'type': None,
+ 'users': {output: None}}
+convolution
+-------------------------
+origin <class 'torch.fx.node.Node'> convolution

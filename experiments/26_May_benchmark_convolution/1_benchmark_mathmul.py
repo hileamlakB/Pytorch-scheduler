@@ -16,24 +16,6 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 logger.addHandler(handler)
 
-def get_dtype_size(dtype):
-    return torch.tensor(0, dtype=dtype).element_size()
-
-
-datatypes = set([torch.uint8,
-     torch.int8,
-     torch.int16,
-     torch.int32,
-     torch.int64,
-     torch.float16,
-     torch.float32,
-     torch.float64,
-     torch.complex32,
-     torch.complex64,
-     torch.complex32,
-     torch.bool,
-     torch.bfloat16])
-
 class ConvNet(nn.Module):
     def __init__(self, in_channels, out_channels, kernel_size, stride, groups):
         super(ConvNet, self).__init__()
@@ -47,21 +29,11 @@ model = ConvNet(1, 32, 5, 1, 1)
 model = torch.compile(model.to('cuda'), backend="inductor")
 
 
-worked = set()
-for datatype in datatypes:
-    try:
-        
-        # print(datatype, get_dtype_size(datatype))
-        x = torch.randn(1, 1, 32, 32, device="cuda", dtype=datatype)  
-        torch._inductor.config.hilea_benchmark = True
+
+        x = torch.randn(1, 1, 32, 32, device="cuda", dtype=torch.float32)  
+        # run the benchmark ourselve using cudaEvent
+        times = []
+        # Warmup for 5 iterations
         output = model(x)
         
-    
-        
         worked.add(datatype)
-        
-    except Exception as e:
-        print(e)
-        continue
-print(worked)
-print(datatypes - worked)

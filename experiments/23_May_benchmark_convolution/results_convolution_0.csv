@@ -1,0 +1,2 @@
+Batch size,In Channels,Out Channels,Kernel Size,Stride,Width,Height,Flops,Latency,Latency Type
+1,1,16,3,2,32,32,0,0.634880006313324,internal
