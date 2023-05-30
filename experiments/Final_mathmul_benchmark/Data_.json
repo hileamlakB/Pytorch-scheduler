@@ -1,0 +1,58 @@
+{
+    "nodes": [
+        {
+            "flops": 2048.0,
+            "ops": [
+                "aten.mm"
+            ],
+            "inputs": [
+                {
+                    "dtype": "torch.float32",
+                    "size": [
+                        "1",
+                        "32"
+                    ],
+                    "stride": [
+                        "32",
+                        "1"
+                    ]
+                },
+                {
+                    "dtype": "torch.float32",
+                    "size": [
+                        "32",
+                        "32"
+                    ],
+                    "stride": [
+                        "1",
+                        "32"
+                    ]
+                }
+            ],
+            "kwargs": [
+                {}
+            ],
+            "triton": {
+                "kernel_name": "aten.mm",
+                "kernel_path": ""
+            }
+        }
+    ],
+    "gpu_info": {
+        "name": "NVIDIA A100-SXM4-80GB",
+        "compute_capability": [
+            8,
+            0
+        ],
+        "total_memory": 81111.5,
+        "clock_rate": 1410.0,
+        "memory_clock_rate": 1593.0,
+        "num_multiprocessors": 108,
+        "max_threads_per_block": 1024,
+        "max_threads_per_multiprocessor": 2048,
+        "warp_size": 32,
+        "l2_cache_size": 41943040,
+        "max_shared_memory_per_multiprocessor": 167936,
+        "global_memory_bus_width": 5120
+    }
+}
