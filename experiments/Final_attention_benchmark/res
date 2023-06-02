@@ -1,0 +1,73 @@
+----------------file_name: scheduler, line_number: around 1277
+FallbackKernel(
+  name=buf0,
+  layout=MultiOutputLayout(device=device(type='cuda', index=0)),
+  inputs=[InputBuffer(name='arg0_1', layout=FixedLayout('cuda', torch.float16, size=[32, 8, 128, 64], stride=[65536, 8192, 64, 1])), InputBuffer(name='arg1_1', layout=FixedLayout('cuda', torch.float16, size=[32, 8, 128, 64], stride=[65536, 8192, 64, 1])), InputBuffer(name='arg2_1', layout=FixedLayout('cuda', torch.float16, size=[32, 8, 128, 64], stride=[65536, 8192, 64, 1]))],
+  constant_args=(False,),
+  kwargs={},
+  output_view=None,
+  origin_node=None,
+  origins={_scaled_dot_product_efficient_attention}
+)
+ReadWrites(reads={StarDep(name='arg0_1'), StarDep(name='arg1_1'), StarDep(name='arg2_1')}, writes={StarDep(name='buf0')}, index_exprs=set(), range_vars=[], var_ranges=None)
+{'_args': (arg0_1, arg1_1, arg2_1, False),
+ '_erased': False,
+ '_input_nodes': {arg0_1: None, arg1_1: None, arg2_1: None},
+ '_kwargs': {},
+ '_next': getitem,
+ '_prev': arg2_1,
+ '_repr_fn': None,
+ 'graph': <torch.fx.graph.Graph object at 0x2b7f76a79de0>,
+ 'meta': {'original_aten': <OpOverload(op='aten._scaled_dot_product_efficient_attention', overload='default')>,
+          'source_fn': <built-in function scaled_dot_product_attention>,
+          'stack_trace': '  File "/n/home07/hyitayew/Research/Summer '
+                         '2023/experiments/Final_attention_benchmark/test_attention.py", '
+                         'line 16, in forward\n'
+                         '    return self.layer(query, key, value)\n',
+          'val': (FakeTensor(..., device='cuda:0', size=(32, 8, 128, 64), dtype=torch.float16),
+                  FakeTensor(..., device='cuda:0', size=(32, 8, 0)))},
+ 'name': '_scaled_dot_product_efficient_attention',
+ 'op': 'call_function',
+ 'target': <OpOverload(op='aten._scaled_dot_product_efficient_attention', overload='default')>,
+ 'type': None,
+ 'users': {getitem: None}}
+_scaled_dot_product_efficient_attention
+-------------------------
+----------------file_name: scheduler, line_number: around 1277
+MultiOutput(
+  name=buf1,
+  layout=FixedLayout('cuda', torch.float16, size=[32, 8, 128, 64], stride=[65536, 64, 512, 1]),
+  inputs=[FallbackKernel(name='buf0', layout=MultiOutputLayout(device=device(type='cuda', index=0)), inputs=[InputBuffer(name='arg0_1', layout=FixedLayout('cuda', torch.float16, size=[32, 8, 128, 64], stride=[65536, 8192, 64, 1])), InputBuffer(name='arg1_1', layout=FixedLayout('cuda', torch.float16, size=[32, 8, 128, 64], stride=[65536, 8192, 64, 1])), InputBuffer(name='arg2_1', layout=FixedLayout('cuda', torch.float16, size=[32, 8, 128, 64], stride=[65536, 8192, 64, 1]))], constant_args=(False,), kwargs={}, output_view=None)],
+  constant_args=(),
+  kwargs={},
+  output_view=None,
+  origin_node=getitem,
+  origins={_scaled_dot_product_efficient_attention}
+)
+ReadWrites(reads={StarDep(name='buf0')}, writes={StarDep(name='buf1')}, index_exprs=set(), range_vars=[], var_ranges=None)
+{'_args': (arg0_1, arg1_1, arg2_1, False),
+ '_erased': False,
+ '_input_nodes': {arg0_1: None, arg1_1: None, arg2_1: None},
+ '_kwargs': {},
+ '_next': getitem,
+ '_prev': arg2_1,
+ '_repr_fn': None,
+ 'graph': <torch.fx.graph.Graph object at 0x2b7f76a79de0>,
+ 'meta': {'original_aten': <OpOverload(op='aten._scaled_dot_product_efficient_attention', overload='default')>,
+          'source_fn': <built-in function scaled_dot_product_attention>,
+          'stack_trace': '  File "/n/home07/hyitayew/Research/Summer '
+                         '2023/experiments/Final_attention_benchmark/test_attention.py", '
+                         'line 16, in forward\n'
+                         '    return self.layer(query, key, value)\n',
+          'val': (FakeTensor(..., device='cuda:0', size=(32, 8, 128, 64), dtype=torch.float16),
+                  FakeTensor(..., device='cuda:0', size=(32, 8, 0)))},
+ 'name': '_scaled_dot_product_efficient_attention',
+ 'op': 'call_function',
+ 'target': <OpOverload(op='aten._scaled_dot_product_efficient_attention', overload='default')>,
+ 'type': None,
+ 'users': {getitem: None}}
+_scaled_dot_product_efficient_attention
+-------------------------
+origin <class 'torch.fx.node.Node'> _scaled_dot_product_efficient_attention
+origin <class 'torch.fx.node.Node'> _scaled_dot_product_efficient_attention
+{}

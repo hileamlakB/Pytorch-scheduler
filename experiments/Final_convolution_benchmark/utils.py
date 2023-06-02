@@ -31,11 +31,46 @@ logger.addHandler(handler)
 class ConvNet(nn.Module):
     def __init__(self, in_channels, out_channels, kernel_size, stride, groups):
         super(ConvNet, self).__init__()
-        self.conv = nn.Conv2d(in_channels, out_channels, kernel_size=kernel_size, stride=stride, padding=kernel_size//2, groups=groups)
+        self.conv = nn.Conv2d(in_channels, out_channels, kernel_size=kernel_size, stride=stride, padding=kernel_size//2, groups=groups, dtype={datatype})
 
     def forward(self, x):
         out = self.conv(x)
         return out
+        
+def benchmark(model, x, warmup=25, rep=100):
+    # We maintain a buffer of 256 MB that we clear before each kernel call
+    cache = torch.empty(int(256e6 // 4), dtype=torch.int, device='cuda')
+
+    # Warm-up
+    for _ in range(warmup):
+        output = model(x)
+        del output
+        torch.cuda.empty_cache()
+
+    # Benchmark
+    start_event = [torch.cuda.Event(enable_timing=True) for _ in range(rep)]
+    end_event = [torch.cuda.Event(enable_timing=True) for _ in range(rep)]
+    times = []
+    for i in range(rep):
+        # We clear the L2 cache before each run
+        cache.zero_()
+        # Record time of `model(x)`
+        start_event[i].record()
+        output = model(x)
+        end_event[i].record()
+        # Clean up
+        del output
+        torch.cuda.empty_cache()
+        time.sleep(0.2)
+
+    # Record clocks
+    torch.cuda.synchronize()
+    times = torch.tensor([s.elapsed_time(e) for s, e in zip(start_event, end_event)])
+
+    ms = torch.mode(times).values.item()
+
+    return ms
+
 
 model = ConvNet({in_channels}, {out_channels}, {kernel_size}, {stride}, {group})
 model = torch.compile(model.to('cuda'), backend="inductor")
@@ -45,33 +80,7 @@ try:
     
     if "{ltype}" == "internal":
         
-        
-        # run the benchmark ourselve using cudaEvent
-        times = []
-        # Warmup for 5 iterations
-        for _ in range(5):
-            output = model(x)
-            del output
-            torch.cuda.empty_cache()
-            time.sleep(0.2)
-
-        # Measure for 100 iterations
-        for _ in range(100):
-            start_event = torch.cuda.Event(enable_timing=True)
-            end_event = torch.cuda.Event(enable_timing=True)
-            start_event.record()
-            output = model(x)
-            torch.cuda.synchronize()  # Wait for the events to complete
-            end_event.record()
-            times.append(start_event.elapsed_time(end_event))  # Time in milliseconds
-            del output
-            torch.cuda.empty_cache()
-            time.sleep(0.2)
-
-        # Calculate the mode
-        times_tensor = torch.tensor(times)
-        ms = torch.mode(times_tensor).values.item()
-
+        ms = benchmark(model, x)
         flops = 0 # this is fine as the flop can be extracted from the equivalent external benchmark
         
 
@@ -84,7 +93,7 @@ try:
 
     with open('results_convolution_{gpu}_{division}.csv', 'a', newline='') as f:
         writer = csv.writer(f)
-        writer.writerow([{batch_size}, {in_channels}, {out_channels}, {kernel_size}, {stride}, {width}, {height}, flops, ms, "{ltype}"])
+        writer.writerow([{datatype}, {batch_size}, {in_channels}, {out_channels}, {kernel_size}, {stride}, {width}, {height}, flops, ms, "{ltype}"])
 except Exception as e:
     error_msg = "There was an exception running the following parameters: {batch_size}, {in_channels}, {out_channels}, {kernel_size}, {stride}, {width}, {height}, {ltype} on gpu:{gpu}\\n"
     logger.error(error_msg + str(e))

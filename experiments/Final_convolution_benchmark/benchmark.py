@@ -45,7 +45,7 @@ for i in range(num_gpus):
     with open(f'results_convolution_{i}_{division}.csv', 'w', newline='') as f:
         logger.info(f"Creating results_convolution_{i}_{division}.csv")
         writer = csv.writer(f)
-        writer.writerow(["Batch size", "In Channels", "Out Channels", "Kernel Size", "Stride", "Width", "Height", "Flops", "Latency", "Latency Type"])
+        writer.writerow(["Data type", "Batch size", "In Channels", "Out Channels", "Kernel Size", "Stride", "Width", "Height", "Flops", "Latency", "Latency Type"])
 
 
 with tqdm(total=len(params)) as pbar:
@@ -79,7 +79,7 @@ with tqdm(total=len(params)) as pbar:
 with open(f'results_convolution_{division}.csv', 'w', newline='') as outfile:
     logger.info(f"Merging results into results_convolution_{division}.csv")
     writer = csv.writer(outfile)
-    writer.writerow(["Batch size", "In Channels", "Out Channels", "Kernel Size", "Stride", "Width", "Height", "Flops", "Latency", "Latency Type"])
+    writer.writerow(["Datatype","Batch size", "In Channels", "Out Channels", "Kernel Size", "Stride", "Width", "Height", "Flops", "Latency", "Latency Type"])
 
     for gpu in range(num_gpus):
         with open(f'results_convolution_{gpu}_{division}.csv', 'r', newline='') as infile:

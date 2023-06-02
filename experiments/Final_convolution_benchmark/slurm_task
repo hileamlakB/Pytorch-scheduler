@@ -1,19 +1,19 @@
 #!/bin/bash
 
-#SBATCH --job-name=collect_data_tesla_v100-pcie-32gb
-#SBATCH --output=collect_data_tesla_v100-pcie-32gb_%a.out
-#SBATCH --error=collect_data_tesla_v100-pcie-32gb_%a.err
+#SBATCH --job-name=collect_data_nvidia_a100-sxm4-80gb
+#SBATCH --output=collect_data_nvidia_a100-sxm4-80gb_%a.out
+#SBATCH --error=collect_data_nvidia_a100-sxm4-80gb_%a.err
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --gres=gpu:tesla_v100-pcie-32gb:2
-#SBATCH --mem=16G
+#SBATCH --gres=gpu:nvidia_a100-sxm4-80gb:2
+#SBATCH --mem=32G
 #SBATCH --time=8:00:00
-#SBATCH --partition=gpu_test
-#SBATCH --array=1,2,3,4
+#SBATCH --partition=seas_gpu
+#SBATCH --array=1-3
 
 ls
 conda deactivate
-conda activate $(pwd)/a100-80G
+conda activate ~/a100-80G
 
 cd /n/home07/hyitayew/Research/Summer 2023/experiments/Final_convolution_benchmark
 mkdir ${SLURM_ARRAY_TASK_ID}

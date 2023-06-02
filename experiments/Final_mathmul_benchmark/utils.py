@@ -44,34 +44,47 @@ class MMNet(nn.Module):
 model = MMNet({input_dimensions}, {output_dimensions}, {bias})
 model = torch.compile(model.to('cuda'), backend="inductor")
 
+def benchmark(model, x, warmup=25, rep=100):
+    # We maintain a buffer of 256 MB that we clear before each kernel call
+    cache = torch.empty(int(256e6 // 4), dtype=torch.int, device='cuda')
+
+    # Warm-up
+    for _ in range(warmup):
+        output = model(x)
+        del output
+        torch.cuda.empty_cache()
+
+    # Benchmark
+    start_event = [torch.cuda.Event(enable_timing=True) for _ in range(rep)]
+    end_event = [torch.cuda.Event(enable_timing=True) for _ in range(rep)]
+    times = []
+    for i in range(rep):
+        # We clear the L2 cache before each run
+        cache.zero_()
+        # Record time of `model(x)`
+        start_event[i].record()
+        output = model(x)
+        end_event[i].record()
+        # Clean up
+        del output
+        torch.cuda.empty_cache()
+        time.sleep(0.2)
+
+    # Record clocks
+    torch.cuda.synchronize()
+    times = torch.tensor([s.elapsed_time(e) for s, e in zip(start_event, end_event)])
+
+    ms = torch.mode(times).values.item()
+
+    return ms
+
 try:
     x = torch.randn({batch_size}, {input_dimensions}, device="cuda", dtype={datatype})
     
     if "{ltype}" == "internal":
-        times = []
-        for _ in range(5):  # Warmup for 5 iterations
-            output = model(x)
-            del output
-            torch.cuda.empty_cache()
-            time.sleep(0.2)
-
-        for _ in range(100):  # Measure for 100 iterations
-            start_event = torch.cuda.Event(enable_timing=True)
-            end_event = torch.cuda.Event(enable_timing=True)
-            start_event.record()
-            output = model(x)
-            torch.cuda.synchronize()  # Wait for the events to complete
-            end_event.record()
-            times.append(start_event.elapsed_time(end_event))  # Time in milliseconds
-            del output
-            torch.cuda.empty_cache()
-            time.sleep(0.2)
-
-        times_tensor = torch.tensor(times)
-        ms = torch.mode(times_tensor).values.item()
-
-        flops = 0  # this is fine as the flop can be extracted from the equivalent external benchmark
-
+        ms = benchmark(model, x)
+        flops = 0 # this is fine as the flop can be extracted from the equivalent external benchmark
+        
     else:
         torch._inductor.config.hilea_benchmark = True
         output = model(x)

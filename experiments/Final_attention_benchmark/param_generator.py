@@ -5,19 +5,15 @@ class ParamGenerator:
 
     def __init__(self, num_chunks):
         # Define the range of parameters
-        widths = [32, 42, 52, 64, 104, 144, 128, 180, 256, 590, 512, 800, 1024, 2000, 2048, 3900, 4000, 4096, 5000, 5900, 6000, 6782, 6103, 8192, 16384, 32768,65536,131072]
-        heights = widths[:]
-        in_channels_list = [1, 3, 5]
-        out_channels_list = [16, 32, 64]
-        batch_sizes = [1, 32, 64, 128, 256, 512, 1024, 2048, 4096]
-        kernel_sizes = [3, 5, 7, 9]
-        strides = [1, 2, 3, 4]
-        groups = [1,2,3,4,5]
-        datatypes = [torch.float32]  # other datatypes aren't supported currently
+        batch_sizes = [1,32,64, 128,256,512]  
+        num_heads = [1, 2, 4, 8, 16]
+        query_key_lens = [64, 128, 256, 512, 1024, 2048]
+        d_kvs = [64, 128, 256, 512, 1024]
+        dtypes = [torch.float32, torch.float16]
         ltypes = ["internal", "external"] # latency type, they  way it is recorded
 
         # Generate all combinations of parameters
-        self.params = list(itertools.product(in_channels_list, out_channels_list, kernel_sizes, strides, widths, heights, batch_sizes, groups, datatypes, ltypes))
+        self.params = list(itertools.product(batch_sizes, num_heads, query_key_lens, d_kvs, dtypes, ltypes))
 
         # Calculate chunk size based on the total number of chunks
         self.chunk_size = len(self.params) // num_chunks
@@ -30,7 +26,7 @@ class ParamGenerator:
         return self.params[chunk_start : chunk_end]
 
 
-param_gen = ParamGenerator(num_chunks=100)
+param_gen = ParamGenerator(num_chunks=1000)
 
 if __name__ == '__main__':
     print(param_gen.chunk_size)

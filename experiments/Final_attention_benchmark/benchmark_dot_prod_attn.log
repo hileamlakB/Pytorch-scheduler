@@ -1,0 +1,94 @@
+2023-05-30 00:27:49,478 - __main__ - INFO - Creating results_dot_prod_attn_0_1.csv
+2023-05-30 00:27:49,524 - __main__ - INFO - Creating results_dot_prod_attn_1_1.csv
+2023-05-30 00:27:49,554 - __main__ - INFO - Creating results_dot_prod_attn_2_1.csv
+2023-05-30 00:27:49,584 - __main__ - INFO - Creating results_dot_prod_attn_3_1.csv
+2023-05-30 00:27:49,643 - __main__ - INFO - Created script_0_0_1.py
+2023-05-30 00:28:29,512 - __main__ - INFO - Finished running script_0_0_1.py
+2023-05-30 00:28:29,547 - __main__ - INFO - Merging results into results_dot_prod_attn_1.csv
+2023-05-30 00:28:29,604 - __main__ - INFO - Finished benchmarking scaled_dot_product_attention
+2023-05-30 00:29:25,398 - __main__ - INFO - Creating results_dot_prod_attn_0_1.csv
+2023-05-30 00:29:25,436 - __main__ - INFO - Creating results_dot_prod_attn_1_1.csv
+2023-05-30 00:29:25,466 - __main__ - INFO - Creating results_dot_prod_attn_2_1.csv
+2023-05-30 00:29:25,496 - __main__ - INFO - Creating results_dot_prod_attn_3_1.csv
+2023-05-30 00:29:25,556 - __main__ - INFO - Created script_0_0_1.py
+2023-05-30 00:30:04,875 - __main__ - INFO - Finished running script_0_0_1.py
+2023-05-30 00:30:04,906 - __main__ - INFO - Created script_1_0_1.py
+2023-05-30 00:30:26,910 - __main__ - ERROR - There was an exception running the following parameters: 1, 1, 64, 64, external on gpu:1
+name 'status' is not defined
+2023-05-30 00:30:27,695 - __main__ - INFO - Finished running script_1_0_1.py
+2023-05-30 00:30:27,724 - __main__ - INFO - Created script_2_0_1.py
+2023-05-30 00:31:06,854 - __main__ - INFO - Finished running script_2_0_1.py
+2023-05-30 00:31:06,886 - __main__ - INFO - Created script_3_0_1.py
+2023-05-30 00:31:29,382 - __main__ - ERROR - There was an exception running the following parameters: 1, 1, 64, 64, external on gpu:3
+name 'status' is not defined
+2023-05-30 00:31:30,274 - __main__ - INFO - Finished running script_3_0_1.py
+2023-05-30 00:31:30,303 - __main__ - INFO - Merging results into results_dot_prod_attn_1.csv
+2023-05-30 00:31:30,356 - __main__ - INFO - Finished benchmarking scaled_dot_product_attention
+2023-05-30 00:31:53,981 - __main__ - INFO - Creating results_dot_prod_attn_0_1.csv
+2023-05-30 00:31:54,011 - __main__ - INFO - Creating results_dot_prod_attn_1_1.csv
+2023-05-30 00:31:54,037 - __main__ - INFO - Creating results_dot_prod_attn_2_1.csv
+2023-05-30 00:31:54,064 - __main__ - INFO - Creating results_dot_prod_attn_3_1.csv
+2023-05-30 00:31:54,118 - __main__ - INFO - Created script_0_0_1.py
+2023-05-30 00:32:33,935 - __main__ - INFO - Finished running script_0_0_1.py
+2023-05-30 00:32:33,973 - __main__ - INFO - Created script_1_0_1.py
+2023-05-30 00:32:55,912 - __main__ - ERROR - There was an exception running the following parameters: 1, 1, 64, 64, external on gpu:1
+name 'status' is not defined
+2023-05-30 00:32:56,821 - __main__ - INFO - Finished running script_1_0_1.py
+2023-05-30 00:32:56,850 - __main__ - INFO - Created script_2_0_1.py
+2023-05-30 00:33:36,109 - __main__ - INFO - Finished running script_2_0_1.py
+2023-05-30 00:33:36,146 - __main__ - INFO - Created script_3_0_1.py
+2023-05-30 00:33:58,159 - __main__ - ERROR - There was an exception running the following parameters: 1, 1, 64, 64, external on gpu:3
+name 'status' is not defined
+2023-05-30 00:33:59,048 - __main__ - INFO - Finished running script_3_0_1.py
+2023-05-30 00:33:59,079 - __main__ - INFO - Merging results into results_dot_prod_attn_1.csv
+2023-05-30 00:33:59,139 - __main__ - INFO - Finished benchmarking scaled_dot_product_attention
+2023-05-30 00:35:07,952 - __main__ - INFO - Creating results_dot_prod_attn_0_1.csv
+2023-05-30 00:35:07,988 - __main__ - INFO - Creating results_dot_prod_attn_1_1.csv
+2023-05-30 00:35:08,016 - __main__ - INFO - Creating results_dot_prod_attn_2_1.csv
+2023-05-30 00:35:08,043 - __main__ - INFO - Creating results_dot_prod_attn_3_1.csv
+2023-05-30 00:35:08,099 - __main__ - INFO - Created script_0_0_1.py
+2023-05-30 00:35:48,072 - __main__ - INFO - Finished running script_0_0_1.py
+2023-05-30 00:35:48,105 - __main__ - INFO - Created script_1_0_1.py
+2023-05-30 00:36:04,446 - __main__ - ERROR - There was an exception running the following parameters: 1, 1, 64, 64, external on gpu:1
+'flops'
+2023-05-30 00:36:05,375 - __main__ - INFO - Finished running script_1_0_1.py
+2023-05-30 00:36:05,404 - __main__ - INFO - Created script_2_0_1.py
+2023-05-30 00:36:50,513 - __main__ - INFO - Finished running script_2_0_1.py
+2023-05-30 00:36:50,550 - __main__ - INFO - Created script_3_0_1.py
+2023-05-30 00:37:06,873 - __main__ - ERROR - There was an exception running the following parameters: 1, 1, 64, 64, external on gpu:3
+'flops'
+2023-05-30 00:37:07,877 - __main__ - INFO - Finished running script_3_0_1.py
+2023-05-30 00:37:07,905 - __main__ - INFO - Merging results into results_dot_prod_attn_1.csv
+2023-05-30 00:37:07,962 - __main__ - INFO - Finished benchmarking scaled_dot_product_attention
+2023-05-30 00:42:25,376 - __main__ - INFO - Creating results_dot_prod_attn_0_1.csv
+2023-05-30 00:42:25,414 - __main__ - INFO - Creating results_dot_prod_attn_1_1.csv
+2023-05-30 00:42:25,440 - __main__ - INFO - Creating results_dot_prod_attn_2_1.csv
+2023-05-30 00:42:25,467 - __main__ - INFO - Creating results_dot_prod_attn_3_1.csv
+2023-05-30 00:42:25,522 - __main__ - INFO - Created script_0_0_1.py
+2023-05-30 00:42:35,496 - __main__ - INFO - Finished running script_0_0_1.py
+2023-05-30 00:42:35,528 - __main__ - INFO - Created script_1_0_1.py
+2023-05-30 00:42:35,671 - __main__ - INFO - Finished running script_1_0_1.py
+2023-05-30 00:42:35,701 - __main__ - INFO - Created script_2_0_1.py
+2023-05-30 00:42:35,851 - __main__ - INFO - Finished running script_2_0_1.py
+2023-05-30 00:42:35,880 - __main__ - INFO - Created script_3_0_1.py
+2023-05-30 00:42:36,327 - __main__ - INFO - Finished running script_3_0_1.py
+2023-05-30 00:42:36,356 - __main__ - INFO - Merging results into results_dot_prod_attn_1.csv
+2023-05-30 00:42:36,410 - __main__ - INFO - Finished benchmarking scaled_dot_product_attention
+2023-05-31 01:31:50,616 - __main__ - INFO - Creating results_dot_prod_attn_0_1.csv
+2023-05-31 01:31:50,686 - __main__ - INFO - Creating results_dot_prod_attn_1_1.csv
+2023-05-31 01:31:50,715 - __main__ - INFO - Creating results_dot_prod_attn_2_1.csv
+2023-05-31 01:31:50,744 - __main__ - INFO - Creating results_dot_prod_attn_3_1.csv
+2023-05-31 01:31:50,827 - __main__ - INFO - Created script_0_0_1.py
+2023-05-31 01:32:41,055 - __main__ - INFO - Finished running script_0_0_1.py
+2023-05-31 01:32:41,093 - __main__ - INFO - Created script_1_0_1.py
+2023-05-31 01:33:05,826 - __main__ - ERROR - There was an exception running the following parameters: 1, 1, 64, 64, external on gpu:1
+'flops'
+2023-05-31 01:33:06,633 - __main__ - INFO - Finished running script_1_0_1.py
+2023-05-31 01:33:06,668 - __main__ - INFO - Created script_2_0_1.py
+2023-05-31 01:33:49,086 - __main__ - INFO - Finished running script_2_0_1.py
+2023-05-31 01:33:49,124 - __main__ - INFO - Created script_3_0_1.py
+2023-05-31 01:34:11,775 - __main__ - ERROR - There was an exception running the following parameters: 1, 1, 64, 64, external on gpu:3
+'flops'
+2023-05-31 01:34:12,736 - __main__ - INFO - Finished running script_3_0_1.py
+2023-05-31 01:34:12,764 - __main__ - INFO - Merging results into results_dot_prod_attn_1.csv
+2023-05-31 01:34:12,822 - __main__ - INFO - Finished benchmarking scaled_dot_product_attention
