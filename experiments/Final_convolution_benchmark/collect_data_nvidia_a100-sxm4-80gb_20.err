@@ -1,0 +1,483 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+/var/slurmd/spool/slurmd/job56412494/slurm_script: line 18: cd: /n/home07/hyitayew/Research/Summer: No such file or directory
+/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 0/419904 [00:00<?, ?it/s]  0%|          | 6/419904 [00:00<2:05:49, 55.62it/s]  0%|          | 12/419904 [00:00<2:05:48, 55.63it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 13/419904 [00:19<2:05:48, 55.63it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 14/419904 [00:27<351:23:18,  3.01s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 15/419904 [00:41<520:39:58,  4.46s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 16/419904 [00:54<686:11:51,  5.88s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 17/419904 [01:08<856:26:32,  7.34s/it]  0%|          | 23/419904 [01:08<329:27:47,  2.82s/it]  0%|          | 29/419904 [01:08<176:06:30,  1.51s/it]  0%|          | 35/419904 [01:08<106:20:51,  1.10it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 38/419904 [01:20<106:20:48,  1.10it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 39/419904 [01:32<270:21:18,  2.32s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 40/419904 [01:45<383:07:34,  3.29s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 41/419904 [01:59<520:19:29,  4.46s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 42/419904 [02:08<603:14:25,  5.17s/it]  0%|          | 48/419904 [02:08<275:33:23,  2.36s/it]  0%|          | 54/419904 [02:09<155:48:14,  1.34s/it]  0%|          | 60/419904 [02:09<96:37:51,  1.21it/s] /n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 63/419904 [02:20<96:37:49,  1.21it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 64/419904 [02:32<250:50:20,  2.15s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 65/419904 [02:42<334:02:58,  2.86s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 66/419904 [02:55<463:26:54,  3.97s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 67/419904 [03:09<625:38:12,  5.36s/it]  0%|          | 73/419904 [03:09<289:00:35,  2.48s/it]  0%|          | 79/419904 [03:09<164:04:25,  1.41s/it]  0%|          | 85/419904 [03:09<101:58:05,  1.14it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 87/419904 [03:20<101:58:04,  1.14it/s]  0%|          | 88/419904 [03:20<168:51:38,  1.45s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 89/419904 [03:33<299:49:58,  2.57s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 90/419904 [03:44<410:46:00,  3.52s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 91/419904 [04:00<620:42:59,  5.32s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 92/419904 [04:11<723:13:43,  6.20s/it]  0%|          | 98/419904 [04:11<295:34:52,  2.53s/it]  0%|          | 104/419904 [04:11<160:57:15,  1.38s/it]  0%|          | 110/419904 [04:11<98:03:33,  1.19it/s] /n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 113/419904 [04:30<98:03:30,  1.19it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 114/419904 [04:35<259:41:39,  2.23s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 115/419904 [04:46<349:49:10,  3.00s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 116/419904 [04:56<451:26:59,  3.87s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 117/419904 [05:08<580:28:15,  4.98s/it]  0%|          | 123/419904 [05:08<266:09:00,  2.28s/it]  0%|          | 129/419904 [05:08<150:44:13,  1.29s/it]  0%|          | 135/419904 [05:08<93:35:43,  1.25it/s]   0%|          | 138/419904 [05:20<93:35:40,  1.25it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 139/419904 [05:22<177:46:56,  1.52s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 141/419904 [05:33<249:07:11,  2.14s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 142/419904 [05:47<391:12:37,  3.36s/it]  0%|          | 148/419904 [05:47<208:48:51,  1.79s/it]  0%|          | 154/419904 [05:47<125:53:03,  1.08s/it]  0%|          | 160/419904 [05:47<80:46:56,  1.44it/s] /n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 163/419904 [06:00<80:46:54,  1.44it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 164/419904 [06:14<256:41:21,  2.20s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 165/419904 [06:24<338:24:09,  2.90s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 166/419904 [06:38<480:33:08,  4.12s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 167/419904 [06:49<576:59:02,  4.95s/it]  0%|          | 173/419904 [06:49<270:42:07,  2.32s/it]  0%|          | 179/419904 [06:49<154:36:47,  1.33s/it]  0%|          | 185/419904 [06:49<96:23:00,  1.21it/s]   0%|          | 187/419904 [07:00<96:22:59,  1.21it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 188/419904 [07:03<195:34:32,  1.68s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 189/419904 [07:16<308:18:10,  2.64s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 190/419904 [07:29<457:42:07,  3.93s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 191/419904 [07:40<569:37:05,  4.89s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 192/419904 [07:54<743:33:16,  6.38s/it]  0%|          | 198/419904 [07:54<304:13:37,  2.61s/it]  0%|          | 204/419904 [07:54<165:42:37,  1.42s/it]  0%|          | 210/419904 [07:54<100:57:24,  1.15it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 213/419904 [08:10<100:57:21,  1.15it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 214/419904 [08:20<282:29:20,  2.42s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 215/419904 [08:30<365:31:37,  3.14s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 216/419904 [08:44<508:09:30,  4.36s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 217/419904 [08:55<604:05:55,  5.18s/it]  0%|          | 223/419904 [08:55<276:58:03,  2.38s/it]  0%|          | 229/419904 [08:55<156:49:51,  1.35s/it]  0%|          | 235/419904 [08:55<97:20:26,  1.20it/s] /n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 238/419904 [09:10<97:20:24,  1.20it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 239/419904 [09:21<275:32:46,  2.36s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 240/419904 [09:36<396:49:38,  3.40s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 241/419904 [09:46<488:33:14,  4.19s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 242/419904 [10:00<639:15:03,  5.48s/it]  0%|          | 248/419904 [10:00<295:21:05,  2.53s/it]  0%|          | 254/419904 [10:00<167:39:37,  1.44s/it]  0%|          | 260/419904 [10:00<104:09:42,  1.12it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 263/419904 [10:20<104:09:40,  1.12it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 264/419904 [10:26<277:46:25,  2.38s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 265/419904 [10:36<358:48:12,  3.08s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 266/419904 [10:50<497:38:20,  4.27s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 267/419904 [11:00<586:45:08,  5.03s/it]  0%|          | 273/419904 [11:00<271:21:42,  2.33s/it]  0%|          | 279/419904 [11:00<154:09:31,  1.32s/it]  0%|          | 285/419904 [11:00<95:50:49,  1.22it/s] /n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 288/419904 [11:20<95:50:47,  1.22it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 289/419904 [11:22<243:58:12,  2.09s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 290/419904 [11:35<345:43:47,  2.97s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 291/419904 [11:49<490:55:27,  4.21s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 292/419904 [12:00<595:18:09,  5.11s/it]  0%|          | 298/419904 [12:00<275:20:37,  2.36s/it]  0%|          | 304/419904 [12:00<156:24:52,  1.34s/it]  0%|          | 310/419904 [12:00<97:14:59,  1.20it/s] /n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 313/419904 [12:20<97:14:56,  1.20it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 314/419904 [12:25<266:03:55,  2.28s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 315/419904 [12:40<399:09:44,  3.42s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 316/419904 [12:51<487:43:33,  4.18s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 317/419904 [13:04<628:44:21,  5.39s/it]  0%|          | 323/419904 [13:04<290:44:22,  2.49s/it]  0%|          | 329/419904 [13:04<165:06:02,  1.42s/it]  0%|          | 335/419904 [13:04<102:35:31,  1.14it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 338/419904 [13:20<102:35:29,  1.14it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 339/419904 [13:29<268:10:39,  2.30s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 340/419904 [13:41<365:22:59,  3.14s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 341/419904 [13:54<503:36:30,  4.32s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 342/419904 [14:05<607:37:26,  5.21s/it]  0%|          | 348/419904 [14:05<281:00:46,  2.41s/it]  0%|          | 354/419904 [14:05<159:36:57,  1.37s/it]  0%|          | 360/419904 [14:06<99:13:41,  1.17it/s] /n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 363/419904 [14:20<99:13:38,  1.17it/s]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 364/419904 [14:29<252:51:38,  2.17s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 365/419904 [14:39<336:45:25,  2.89s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+  0%|          | 366/419904 [14:52<460:02:08,  3.95s/it]/n/home07/hyitayew/pytorch/torch/cuda/__init__.py:190: UserWarning: 
+NVIDIA A100-SXM4-80GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70.
+If you want to use the NVIDIA A100-SXM4-80GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))

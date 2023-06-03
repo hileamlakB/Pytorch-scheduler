@@ -30,7 +30,7 @@ class ParamGenerator:
         return self.params[chunk_start : chunk_end]
 
 
-param_gen = ParamGenerator(num_chunks=10000000)
+param_gen = ParamGenerator(num_chunks=100)
 
 if __name__ == '__main__':
     print(param_gen.chunk_size)

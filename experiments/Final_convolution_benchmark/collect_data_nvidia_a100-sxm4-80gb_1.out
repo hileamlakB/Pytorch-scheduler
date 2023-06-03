@@ -1,0 +1,11 @@
+benchmark.py
+collect_data_nvidia_a100-sxm4-80gb_1.err
+collect_data_nvidia_a100-sxm4-80gb_1.out
+collect_data_nvidia_a100-sxm4-80gb_2.err
+collect_data_nvidia_a100-sxm4-80gb_2.out
+Data_.json
+param_generator.py
+__pycache__
+slurm_task
+utils.py
+419904

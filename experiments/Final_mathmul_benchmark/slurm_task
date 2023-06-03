@@ -7,7 +7,7 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --gres=gpu:nvidia_a100-sxm4-80gb:2
 #SBATCH --mem=32G
-#SBATCH --time=8:00:00
+#SBATCH --time=24:00:00
 #SBATCH --partition=seas_gpu
 #SBATCH --array=1-3
 

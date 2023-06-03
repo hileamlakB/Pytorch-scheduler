@@ -1,0 +1,870 @@
+2023-06-03 00:53:00,221 - __main__ - INFO - Creating results_convolution_0_12.csv
+2023-06-03 00:53:00,267 - __main__ - INFO - Creating results_convolution_1_12.csv
+2023-06-03 00:53:00,372 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:53:00,392 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:53:00,411 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:53:00,440 - __main__ - INFO - Created script_0_3_12.py
+2023-06-03 00:53:18,697 - __main__ - ERROR - There was an exception running the following parameters: 128, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:53:19,716 - __main__ - INFO - Finished running script_0_3_12
+2023-06-03 00:53:19,745 - __main__ - INFO - Created script_0_4_12.py
+2023-06-03 00:53:37,422 - __main__ - ERROR - There was an exception running the following parameters: 128, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:53:38,417 - __main__ - INFO - Finished running script_0_4_12
+2023-06-03 00:53:38,447 - __main__ - INFO - Created script_0_5_12.py
+2023-06-03 00:53:51,844 - __main__ - ERROR - There was an exception running the following parameters: 128, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:53:52,831 - __main__ - INFO - Finished running script_0_5_12
+2023-06-03 00:53:52,862 - __main__ - INFO - Created script_0_6_12.py
+2023-06-03 00:54:07,015 - __main__ - ERROR - There was an exception running the following parameters: 128, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:54:08,026 - __main__ - INFO - Finished running script_0_6_12
+2023-06-03 00:54:08,059 - __main__ - INFO - Created script_0_7_12.py
+2023-06-03 00:54:21,158 - __main__ - ERROR - There was an exception running the following parameters: 128, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:54:22,171 - __main__ - INFO - Finished running script_0_7_12
+2023-06-03 00:54:22,192 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:54:22,211 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:54:22,230 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:54:22,250 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:54:22,269 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:54:22,288 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:54:22,308 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:54:22,328 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:54:22,347 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:54:22,366 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:54:22,385 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:54:22,405 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:54:22,425 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:54:22,444 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:54:22,463 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:54:22,483 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:54:22,502 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:54:22,521 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:54:22,541 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:54:22,560 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:54:22,589 - __main__ - INFO - Created script_0_28_12.py
+2023-06-03 00:54:36,704 - __main__ - ERROR - There was an exception running the following parameters: 256, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:54:37,708 - __main__ - INFO - Finished running script_0_28_12
+2023-06-03 00:54:37,737 - __main__ - INFO - Created script_0_29_12.py
+2023-06-03 00:54:47,779 - __main__ - ERROR - There was an exception running the following parameters: 256, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:54:48,786 - __main__ - INFO - Finished running script_0_29_12
+2023-06-03 00:54:48,817 - __main__ - INFO - Created script_0_30_12.py
+2023-06-03 00:55:02,532 - __main__ - ERROR - There was an exception running the following parameters: 256, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:55:03,517 - __main__ - INFO - Finished running script_0_30_12
+2023-06-03 00:55:03,547 - __main__ - INFO - Created script_0_31_12.py
+2023-06-03 00:55:16,664 - __main__ - ERROR - There was an exception running the following parameters: 256, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:55:17,669 - __main__ - INFO - Finished running script_0_31_12
+2023-06-03 00:55:17,699 - __main__ - INFO - Created script_0_32_12.py
+2023-06-03 00:55:31,544 - __main__ - ERROR - There was an exception running the following parameters: 256, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:55:32,530 - __main__ - INFO - Finished running script_0_32_12
+2023-06-03 00:55:32,550 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:55:32,569 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:55:32,588 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:55:32,607 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:55:32,626 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:55:32,645 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:55:32,665 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:55:32,683 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:55:32,702 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:55:32,721 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:55:32,740 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:55:32,759 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:55:32,779 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:55:32,798 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:55:32,817 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:55:32,836 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:55:32,855 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:55:32,874 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:55:32,893 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:55:32,912 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:55:32,941 - __main__ - INFO - Created script_0_53_12.py
+2023-06-03 00:55:43,103 - __main__ - ERROR - There was an exception running the following parameters: 512, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:55:44,095 - __main__ - INFO - Finished running script_0_53_12
+2023-06-03 00:55:44,124 - __main__ - INFO - Created script_0_54_12.py
+2023-06-03 00:55:57,537 - __main__ - ERROR - There was an exception running the following parameters: 512, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:55:58,524 - __main__ - INFO - Finished running script_0_54_12
+2023-06-03 00:55:58,554 - __main__ - INFO - Created script_0_55_12.py
+2023-06-03 00:56:08,891 - __main__ - ERROR - There was an exception running the following parameters: 512, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:56:09,859 - __main__ - INFO - Finished running script_0_55_12
+2023-06-03 00:56:09,890 - __main__ - INFO - Created script_0_56_12.py
+2023-06-03 00:56:26,070 - __main__ - ERROR - There was an exception running the following parameters: 512, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:56:26,723 - __main__ - INFO - Finished running script_0_56_12
+2023-06-03 00:56:26,752 - __main__ - INFO - Created script_0_57_12.py
+2023-06-03 00:56:35,994 - __main__ - ERROR - There was an exception running the following parameters: 512, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:56:36,731 - __main__ - INFO - Finished running script_0_57_12
+2023-06-03 00:56:36,751 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:56:36,770 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:56:36,790 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:56:36,808 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:56:36,828 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:56:36,847 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:56:36,866 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:56:36,885 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:56:36,904 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:56:36,923 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:56:36,941 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:56:36,960 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:56:36,979 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:56:36,998 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:56:37,017 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:56:37,036 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:56:37,055 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:56:37,074 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:56:37,094 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:56:37,112 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:56:37,141 - __main__ - INFO - Created script_0_78_12.py
+2023-06-03 00:56:50,854 - __main__ - ERROR - There was an exception running the following parameters: 1024, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:56:51,875 - __main__ - INFO - Finished running script_0_78_12
+2023-06-03 00:56:51,905 - __main__ - INFO - Created script_0_79_12.py
+2023-06-03 00:57:01,661 - __main__ - ERROR - There was an exception running the following parameters: 1024, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:57:02,663 - __main__ - INFO - Finished running script_0_79_12
+2023-06-03 00:57:02,693 - __main__ - INFO - Created script_0_80_12.py
+2023-06-03 00:57:16,502 - __main__ - ERROR - There was an exception running the following parameters: 1024, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:57:17,516 - __main__ - INFO - Finished running script_0_80_12
+2023-06-03 00:57:17,546 - __main__ - INFO - Created script_0_81_12.py
+2023-06-03 00:57:30,850 - __main__ - ERROR - There was an exception running the following parameters: 1024, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:57:31,843 - __main__ - INFO - Finished running script_0_81_12
+2023-06-03 00:57:31,875 - __main__ - INFO - Created script_0_82_12.py
+2023-06-03 00:57:45,499 - __main__ - ERROR - There was an exception running the following parameters: 1024, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:57:46,497 - __main__ - INFO - Finished running script_0_82_12
+2023-06-03 00:57:46,518 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:57:46,538 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:57:46,557 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:57:46,576 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:57:46,595 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:57:46,614 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:57:46,633 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:57:46,653 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:57:46,672 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:57:46,692 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:57:46,711 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:57:46,730 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:57:46,750 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:57:46,769 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:57:46,788 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:57:46,807 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:57:46,827 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:57:46,846 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:57:46,866 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:57:46,885 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:57:46,914 - __main__ - INFO - Created script_0_103_12.py
+2023-06-03 00:57:57,191 - __main__ - ERROR - There was an exception running the following parameters: 2048, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:57:58,174 - __main__ - INFO - Finished running script_0_103_12
+2023-06-03 00:57:58,204 - __main__ - INFO - Created script_0_104_12.py
+2023-06-03 00:58:11,855 - __main__ - ERROR - There was an exception running the following parameters: 2048, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:58:12,854 - __main__ - INFO - Finished running script_0_104_12
+2023-06-03 00:58:12,884 - __main__ - INFO - Created script_0_105_12.py
+2023-06-03 00:58:22,970 - __main__ - ERROR - There was an exception running the following parameters: 2048, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:58:23,963 - __main__ - INFO - Finished running script_0_105_12
+2023-06-03 00:58:23,996 - __main__ - INFO - Created script_0_106_12.py
+2023-06-03 00:58:40,620 - __main__ - ERROR - There was an exception running the following parameters: 2048, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:58:41,605 - __main__ - INFO - Finished running script_0_106_12
+2023-06-03 00:58:41,635 - __main__ - INFO - Created script_0_107_12.py
+2023-06-03 00:58:51,846 - __main__ - ERROR - There was an exception running the following parameters: 2048, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:58:52,830 - __main__ - INFO - Finished running script_0_107_12
+2023-06-03 00:58:52,851 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:58:52,870 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:58:52,889 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:58:52,908 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:58:52,927 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 00:58:52,946 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:58:52,966 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:58:52,986 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:58:53,005 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:58:53,024 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 00:58:53,044 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:58:53,063 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:58:53,083 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:58:53,102 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:58:53,121 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 00:58:53,140 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:58:53,159 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:58:53,178 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:58:53,198 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:58:53,218 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 00:58:53,247 - __main__ - INFO - Created script_0_128_12.py
+2023-06-03 00:59:07,090 - __main__ - ERROR - There was an exception running the following parameters: 4096, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:59:08,075 - __main__ - INFO - Finished running script_0_128_12
+2023-06-03 00:59:08,104 - __main__ - INFO - Created script_0_129_12.py
+2023-06-03 00:59:17,852 - __main__ - ERROR - There was an exception running the following parameters: 4096, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:59:18,792 - __main__ - INFO - Finished running script_0_129_12
+2023-06-03 00:59:18,822 - __main__ - INFO - Created script_0_130_12.py
+2023-06-03 00:59:32,239 - __main__ - ERROR - There was an exception running the following parameters: 4096, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:59:32,618 - __main__ - INFO - Finished running script_0_130_12
+2023-06-03 00:59:32,648 - __main__ - INFO - Created script_0_131_12.py
+2023-06-03 00:59:45,567 - __main__ - ERROR - There was an exception running the following parameters: 4096, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 00:59:46,559 - __main__ - INFO - Finished running script_0_131_12
+2023-06-03 00:59:46,590 - __main__ - INFO - Created script_0_132_12.py
+2023-06-03 01:00:00,251 - __main__ - ERROR - There was an exception running the following parameters: 4096, 1, 32, 9, 4, 1024, 104, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:00:01,238 - __main__ - INFO - Finished running script_0_132_12
+2023-06-03 01:00:01,264 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:00:01,284 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:00:01,303 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:00:01,322 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:00:01,342 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:00:01,361 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:00:01,381 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:00:01,401 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:00:01,420 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:00:01,440 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:00:01,459 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:00:01,478 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:00:01,497 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:00:01,517 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:00:01,536 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:00:01,556 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:00:01,575 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:00:01,594 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:00:01,614 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:00:01,633 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:00:01,661 - __main__ - INFO - Created script_0_153_12.py
+2023-06-03 01:00:12,249 - __main__ - ERROR - There was an exception running the following parameters: 1, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:00:13,239 - __main__ - INFO - Finished running script_0_153_12
+2023-06-03 01:00:13,268 - __main__ - INFO - Created script_0_154_12.py
+2023-06-03 01:00:26,641 - __main__ - ERROR - There was an exception running the following parameters: 1, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:00:27,632 - __main__ - INFO - Finished running script_0_154_12
+2023-06-03 01:00:27,662 - __main__ - INFO - Created script_0_155_12.py
+2023-06-03 01:00:37,816 - __main__ - ERROR - There was an exception running the following parameters: 1, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:00:38,819 - __main__ - INFO - Finished running script_0_155_12
+2023-06-03 01:00:38,849 - __main__ - INFO - Created script_0_156_12.py
+2023-06-03 01:00:55,645 - __main__ - ERROR - There was an exception running the following parameters: 1, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:00:56,636 - __main__ - INFO - Finished running script_0_156_12
+2023-06-03 01:00:56,669 - __main__ - INFO - Created script_0_157_12.py
+2023-06-03 01:01:06,663 - __main__ - ERROR - There was an exception running the following parameters: 1, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:01:07,642 - __main__ - INFO - Finished running script_0_157_12
+2023-06-03 01:01:07,663 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:01:07,683 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:01:07,702 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:01:07,721 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:01:07,740 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:01:07,760 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:01:07,779 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:01:07,799 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:01:07,818 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:01:07,837 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:01:07,856 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:01:07,876 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:01:07,895 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:01:07,914 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:01:07,934 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:01:07,953 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:01:07,972 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:01:07,992 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:01:08,011 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:01:08,031 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:01:08,059 - __main__ - INFO - Created script_0_178_12.py
+2023-06-03 01:01:21,965 - __main__ - ERROR - There was an exception running the following parameters: 32, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:01:22,941 - __main__ - INFO - Finished running script_0_178_12
+2023-06-03 01:01:22,972 - __main__ - INFO - Created script_0_179_12.py
+2023-06-03 01:01:33,039 - __main__ - ERROR - There was an exception running the following parameters: 32, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:01:34,028 - __main__ - INFO - Finished running script_0_179_12
+2023-06-03 01:01:34,058 - __main__ - INFO - Created script_0_180_12.py
+2023-06-03 01:01:47,749 - __main__ - ERROR - There was an exception running the following parameters: 32, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:01:48,752 - __main__ - INFO - Finished running script_0_180_12
+2023-06-03 01:01:48,782 - __main__ - INFO - Created script_0_181_12.py
+2023-06-03 01:02:01,845 - __main__ - ERROR - There was an exception running the following parameters: 32, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:02:02,836 - __main__ - INFO - Finished running script_0_181_12
+2023-06-03 01:02:02,866 - __main__ - INFO - Created script_0_182_12.py
+2023-06-03 01:02:16,578 - __main__ - ERROR - There was an exception running the following parameters: 32, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:02:17,326 - __main__ - INFO - Finished running script_0_182_12
+2023-06-03 01:02:17,346 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:02:17,365 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:02:17,383 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:02:17,402 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:02:17,421 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:02:17,440 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:02:17,459 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:02:17,478 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:02:17,497 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:02:17,516 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:02:17,535 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:02:17,554 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:02:17,574 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:02:17,593 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:02:17,612 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:02:17,631 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:02:17,650 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:02:17,669 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:02:17,688 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:02:17,707 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:02:17,735 - __main__ - INFO - Created script_0_203_12.py
+2023-06-03 01:02:27,072 - __main__ - ERROR - There was an exception running the following parameters: 64, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:02:27,633 - __main__ - INFO - Finished running script_0_203_12
+2023-06-03 01:02:27,663 - __main__ - INFO - Created script_0_204_12.py
+2023-06-03 01:02:41,001 - __main__ - ERROR - There was an exception running the following parameters: 64, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:02:42,063 - __main__ - INFO - Finished running script_0_204_12
+2023-06-03 01:02:42,093 - __main__ - INFO - Created script_0_205_12.py
+2023-06-03 01:02:52,533 - __main__ - ERROR - There was an exception running the following parameters: 64, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:02:53,509 - __main__ - INFO - Finished running script_0_205_12
+2023-06-03 01:02:53,549 - __main__ - INFO - Created script_0_206_12.py
+2023-06-03 01:03:10,271 - __main__ - ERROR - There was an exception running the following parameters: 64, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:03:11,374 - __main__ - INFO - Finished running script_0_206_12
+2023-06-03 01:03:11,406 - __main__ - INFO - Created script_0_207_12.py
+2023-06-03 01:03:21,566 - __main__ - ERROR - There was an exception running the following parameters: 64, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:03:22,638 - __main__ - INFO - Finished running script_0_207_12
+2023-06-03 01:03:22,659 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:03:22,679 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:03:22,699 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:03:22,718 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:03:22,738 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:03:22,757 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:03:22,776 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:03:22,796 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:03:22,814 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:03:22,834 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:03:22,852 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:03:22,871 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:03:22,891 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:03:22,910 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:03:22,929 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:03:22,948 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:03:22,967 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:03:22,986 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:03:23,005 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:03:23,024 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:03:23,053 - __main__ - INFO - Created script_0_228_12.py
+2023-06-03 01:03:37,351 - __main__ - ERROR - There was an exception running the following parameters: 128, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:03:38,437 - __main__ - INFO - Finished running script_0_228_12
+2023-06-03 01:03:38,467 - __main__ - INFO - Created script_0_229_12.py
+2023-06-03 01:03:48,341 - __main__ - ERROR - There was an exception running the following parameters: 128, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:03:49,414 - __main__ - INFO - Finished running script_0_229_12
+2023-06-03 01:03:49,444 - __main__ - INFO - Created script_0_230_12.py
+2023-06-03 01:04:03,326 - __main__ - ERROR - There was an exception running the following parameters: 128, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:04:04,415 - __main__ - INFO - Finished running script_0_230_12
+2023-06-03 01:04:04,447 - __main__ - INFO - Created script_0_231_12.py
+2023-06-03 01:04:17,881 - __main__ - ERROR - There was an exception running the following parameters: 128, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:04:18,966 - __main__ - INFO - Finished running script_0_231_12
+2023-06-03 01:04:18,998 - __main__ - INFO - Created script_0_232_12.py
+2023-06-03 01:04:32,761 - __main__ - ERROR - There was an exception running the following parameters: 128, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:04:33,844 - __main__ - INFO - Finished running script_0_232_12
+2023-06-03 01:04:33,865 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:04:33,885 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:04:33,905 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:04:33,924 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:04:33,943 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:04:33,962 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:04:33,982 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:04:34,001 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:04:34,020 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:04:34,039 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:04:34,058 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:04:34,077 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:04:34,096 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:04:34,116 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:04:34,135 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:04:34,154 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:04:34,173 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:04:34,192 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:04:34,212 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:04:34,231 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:04:34,260 - __main__ - INFO - Created script_0_253_12.py
+2023-06-03 01:04:44,706 - __main__ - ERROR - There was an exception running the following parameters: 256, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:04:45,777 - __main__ - INFO - Finished running script_0_253_12
+2023-06-03 01:04:45,807 - __main__ - INFO - Created script_0_254_12.py
+2023-06-03 01:04:59,258 - __main__ - ERROR - There was an exception running the following parameters: 256, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:05:00,122 - __main__ - INFO - Finished running script_0_254_12
+2023-06-03 01:05:00,155 - __main__ - INFO - Created script_0_255_12.py
+2023-06-03 01:05:10,398 - __main__ - ERROR - There was an exception running the following parameters: 256, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:05:11,456 - __main__ - INFO - Finished running script_0_255_12
+2023-06-03 01:05:11,487 - __main__ - INFO - Created script_0_256_12.py
+2023-06-03 01:05:28,251 - __main__ - ERROR - There was an exception running the following parameters: 256, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:05:29,354 - __main__ - INFO - Finished running script_0_256_12
+2023-06-03 01:05:29,384 - __main__ - INFO - Created script_0_257_12.py
+2023-06-03 01:05:39,903 - __main__ - ERROR - There was an exception running the following parameters: 256, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:05:40,971 - __main__ - INFO - Finished running script_0_257_12
+2023-06-03 01:05:40,992 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:05:41,012 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:05:41,032 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:05:41,051 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:05:41,070 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:05:41,090 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:05:41,109 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:05:41,128 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:05:41,147 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:05:41,166 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:05:41,186 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:05:41,205 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:05:41,225 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:05:41,244 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:05:41,263 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:05:41,282 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:05:41,302 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:05:41,321 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:05:41,340 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:05:41,359 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:05:41,388 - __main__ - INFO - Created script_0_278_12.py
+2023-06-03 01:05:55,423 - __main__ - ERROR - There was an exception running the following parameters: 512, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:05:56,511 - __main__ - INFO - Finished running script_0_278_12
+2023-06-03 01:05:56,541 - __main__ - INFO - Created script_0_279_12.py
+2023-06-03 01:06:06,453 - __main__ - ERROR - There was an exception running the following parameters: 512, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:06:07,528 - __main__ - INFO - Finished running script_0_279_12
+2023-06-03 01:06:07,559 - __main__ - INFO - Created script_0_280_12.py
+2023-06-03 01:06:21,684 - __main__ - ERROR - There was an exception running the following parameters: 512, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:06:22,765 - __main__ - INFO - Finished running script_0_280_12
+2023-06-03 01:06:22,795 - __main__ - INFO - Created script_0_281_12.py
+2023-06-03 01:06:35,952 - __main__ - ERROR - There was an exception running the following parameters: 512, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:06:37,048 - __main__ - INFO - Finished running script_0_281_12
+2023-06-03 01:06:37,079 - __main__ - INFO - Created script_0_282_12.py
+2023-06-03 01:06:50,897 - __main__ - ERROR - There was an exception running the following parameters: 512, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:06:51,985 - __main__ - INFO - Finished running script_0_282_12
+2023-06-03 01:06:52,006 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:06:52,025 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:06:52,045 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:06:52,064 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:06:52,083 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:06:52,102 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:06:52,122 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:06:52,141 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:06:52,161 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:06:52,180 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:06:52,199 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:06:52,218 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:06:52,238 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:06:52,257 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:06:52,276 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:06:52,295 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:06:52,315 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:06:52,334 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:06:52,354 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:06:52,373 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:06:52,402 - __main__ - INFO - Created script_0_303_12.py
+2023-06-03 01:07:02,800 - __main__ - ERROR - There was an exception running the following parameters: 1024, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:07:03,867 - __main__ - INFO - Finished running script_0_303_12
+2023-06-03 01:07:03,902 - __main__ - INFO - Created script_0_304_12.py
+2023-06-03 01:07:17,358 - __main__ - ERROR - There was an exception running the following parameters: 1024, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:07:18,435 - __main__ - INFO - Finished running script_0_304_12
+2023-06-03 01:07:18,465 - __main__ - INFO - Created script_0_305_12.py
+2023-06-03 01:07:28,693 - __main__ - ERROR - There was an exception running the following parameters: 1024, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:07:29,759 - __main__ - INFO - Finished running script_0_305_12
+2023-06-03 01:07:29,790 - __main__ - INFO - Created script_0_306_12.py
+2023-06-03 01:07:46,721 - __main__ - ERROR - There was an exception running the following parameters: 1024, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:07:47,815 - __main__ - INFO - Finished running script_0_306_12
+2023-06-03 01:07:47,845 - __main__ - INFO - Created script_0_307_12.py
+2023-06-03 01:07:57,977 - __main__ - ERROR - There was an exception running the following parameters: 1024, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:07:59,035 - __main__ - INFO - Finished running script_0_307_12
+2023-06-03 01:07:59,056 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:07:59,075 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:07:59,095 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:07:59,114 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:07:59,134 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:07:59,153 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:07:59,172 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:07:59,192 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:07:59,211 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:07:59,230 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:07:59,249 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:07:59,268 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:07:59,287 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:07:59,306 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:07:59,325 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:07:59,345 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:07:59,364 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:07:59,383 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:07:59,402 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:07:59,421 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:07:59,449 - __main__ - INFO - Created script_0_328_12.py
+2023-06-03 01:08:13,460 - __main__ - ERROR - There was an exception running the following parameters: 2048, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:08:14,546 - __main__ - INFO - Finished running script_0_328_12
+2023-06-03 01:08:14,577 - __main__ - INFO - Created script_0_329_12.py
+2023-06-03 01:08:24,745 - __main__ - ERROR - There was an exception running the following parameters: 2048, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:08:25,804 - __main__ - INFO - Finished running script_0_329_12
+2023-06-03 01:08:25,834 - __main__ - INFO - Created script_0_330_12.py
+2023-06-03 01:08:39,629 - __main__ - ERROR - There was an exception running the following parameters: 2048, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:08:40,714 - __main__ - INFO - Finished running script_0_330_12
+2023-06-03 01:08:40,745 - __main__ - INFO - Created script_0_331_12.py
+2023-06-03 01:08:53,980 - __main__ - ERROR - There was an exception running the following parameters: 2048, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:08:55,088 - __main__ - INFO - Finished running script_0_331_12
+2023-06-03 01:08:55,118 - __main__ - INFO - Created script_0_332_12.py
+2023-06-03 01:09:09,193 - __main__ - ERROR - There was an exception running the following parameters: 2048, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:09:10,277 - __main__ - INFO - Finished running script_0_332_12
+2023-06-03 01:09:10,298 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:09:10,318 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:09:10,337 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:09:10,356 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:09:10,376 - __main__ - INFO - Skipping invalid group: 2. In Channels: 1
+2023-06-03 01:09:10,395 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:09:10,414 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:09:10,434 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:09:10,453 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:09:10,472 - __main__ - INFO - Skipping invalid group: 3. In Channels: 1
+2023-06-03 01:09:10,491 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:09:10,510 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:09:10,529 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:09:10,548 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:09:10,567 - __main__ - INFO - Skipping invalid group: 4. In Channels: 1
+2023-06-03 01:09:10,586 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:09:10,605 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:09:10,625 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:09:10,644 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:09:10,664 - __main__ - INFO - Skipping invalid group: 5. In Channels: 1
+2023-06-03 01:09:10,693 - __main__ - INFO - Created script_0_353_12.py
+2023-06-03 01:09:21,021 - __main__ - ERROR - There was an exception running the following parameters: 4096, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:09:22,093 - __main__ - INFO - Finished running script_0_353_12
+2023-06-03 01:09:22,123 - __main__ - INFO - Created script_0_354_12.py
+2023-06-03 01:09:35,655 - __main__ - ERROR - There was an exception running the following parameters: 4096, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:09:36,706 - __main__ - INFO - Finished running script_0_354_12
+2023-06-03 01:09:36,736 - __main__ - INFO - Created script_0_355_12.py
+2023-06-03 01:09:47,215 - __main__ - ERROR - There was an exception running the following parameters: 4096, 1, 32, 9, 4, 1024, 144, internal on gpu:0
+CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2023-06-03 01:09:48,281 - __main__ - INFO - Finished running script_0_355_12
+2023-06-03 01:09:48,310 - __main__ - INFO - Created script_0_356_12.py
