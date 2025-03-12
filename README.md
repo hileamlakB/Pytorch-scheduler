@@ -1,6 +1,6 @@
 # Pytorch-scheduler
 
-The final aim of this project is to build a full suit of scheduler tools for pytorch. That includes tools that predict individual kernel latency and bandwidth as well full nerual network latency and bandwidth.  
+The final aim of this project is to build a full suit of scheduler tools for pytorch. That includes tools that predict individual kernel latency and bandwidth as well as full neural network latency and bandwidth.  
 
 ## Prerequisites
 To replicate the experiments in this research you need the following setup. 
